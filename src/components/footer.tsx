@@ -3,6 +3,8 @@ import React from "react";
 import { useRouter } from "next/router";
 import "../assets/css/footer_style.css";
 import FooterLine from "../assets/icons/footerLine";
+import LogoIcon from "../assets/icons/logo";
+import Link from "next/link";
 
 const Home: React.FC = () => {
     const router = useRouter();;
@@ -22,9 +24,9 @@ const Home: React.FC = () => {
        <footer className="footer">
         <div className="footer_content">
             <div className="footer_content_left">
-                <div className="footer_content_logo">
-                    <img src="/images/footer.png" alt="footer_logo" />
-                </div>
+            <Link href="/" className="header_logo">
+                <LogoIcon />
+            </Link>
                 <div className="footer_content_line">
                      <FooterLine />
                 </div>
