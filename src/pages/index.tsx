@@ -11,6 +11,8 @@ import LineIcon3 from "../assets/icons/lineIcon3";
 import PhoneIcon from "../assets/icons/phoneIcon";  
 import MailIcon from "../assets/icons/mailIcon";
 import Footer from "../components/footer";
+import Comma1Icon from "../assets/icons/comma1";
+import Comma2Icon from "../assets/icons/comma2";
 
 const Home: React.FC = () => {
     const router = useRouter();
@@ -95,13 +97,13 @@ const Home: React.FC = () => {
                         <div className="top_content_image_text_container">
                              <div className="top_content_image_text">
                                 <div className="top_content_image_text_icon1">
-                                    <img src="/images/comma1.png" alt="top_icon1" />
+                                    <Comma1Icon />
                                 </div>
                                 <h1 className="top_content_image_text_title">
                                     Turning ideas into digital reality
                                 </h1>   
                                 <div className="top_content_image_text_icon2">
-                                    <img src="/images/comma2.png" alt="top_icon2" />
+                                    <Comma2Icon />
                                 </div>
                             </div>
                         </div>
@@ -205,7 +207,7 @@ const Home: React.FC = () => {
                     <div className="contacts_section_content">
                         <div className="contacts_section_content_item">
                             <div className="contacts_column">
-                                <h3 className="contacts_column_title">DEFEND INSURANCE GROUP</h3>
+                                <h3 className="contacts_column_title">DEFEND RM SOFTWARE</h3>
                                 <nav aria-label="Defend Insurance Group" className="contacts_nav">
                                     <ul className="contacts_list">
                                         <li className="contacts_item">
