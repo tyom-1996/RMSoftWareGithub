@@ -30,13 +30,13 @@ const Home: React.FC = () => {
                     <nav className="header_nav">
                         <ul className="header_nav_list">
                             <li className="header_nav_item">
-                                <Link href="/" className={`header_nav_link ${router.pathname === '/' ? 'active' : ''}`}>About us</Link>
+                                <Link href="/AboutUs" className={`header_nav_link ${router.pathname === '/' ? 'active' : ''}`}>About us</Link>
                             </li>
                             <li className="header_nav_item">
                                 <Link href="/" className="header_nav_link">Products</Link>
                             </li>
                             <li className="header_nav_item">
-                                <Link href="/" className="header_nav_link">Contacts</Link>
+                                <Link href="/Contacts" className="header_nav_link">Contacts</Link>
                             </li>
                         
                         </ul>
