@@ -124,7 +124,7 @@ const Home: React.FC = () => {
             title: "Seezus AI",
             subtitle: "Včasná detekce. Rychlá reakce. Maximální ochrana",
             button: "More info",
-            btnColor: "#6124E1",
+            // btnColor: "#6124E1",
         },
         {
             id: 2,
@@ -132,8 +132,8 @@ const Home: React.FC = () => {
             title: "GuGu software",
             subtitle:
                 "Data pod kontrolou. Náklady pod dohledem",
-                button: "More info",
-                btnColor: "#44D59B",
+            button: "More info",
+                // btnColor: "#44D59B",
         },
         {
             id: 3,
@@ -141,8 +141,8 @@ const Home: React.FC = () => {
             title: "Distribox",
             subtitle:
                 "Rychlé. Jednoduché. Kdykoliv.",
-                button: "More info",
-                btnColor: "#6124E1",
+            button: "More info",
+                // btnColor: "#6124E1",
         },
      
     ]);
@@ -179,7 +179,7 @@ const Home: React.FC = () => {
                                                     {slide.subtitle}
                                                 </p>
 
-                                                <button className="top_content_image_text_button" style={{ backgroundColor: slide.btnColor }}>
+                                                <button className="top_content_image_text_button">
                                                     {slide.button}
                                                     <ArrowIcon2 />
                                                 </button>
@@ -282,7 +282,7 @@ const Home: React.FC = () => {
                     <div className="contacts_section_content">
                         <div className="contacts_section_content_item">
                             <div className="contacts_column">
-                                <h3 className="contacts_column_title">DEFEND RM SOFTWARE</h3>
+                                <h3 className="contacts_column_title">RM SOFTWARE</h3>
                                 <nav aria-label="Defend Insurance Group" className="contacts_nav">
                                     <ul className="contacts_list">
                                         <li className="contacts_item">
