@@ -33,7 +33,7 @@ const Home: React.FC = () => {
                                 <Link href="/AboutUs" className={`header_nav_link ${router.pathname === '/' ? 'active' : ''}`}>About us</Link>
                             </li>
                             <li className="header_nav_item">
-                                <Link href="/" className="header_nav_link">Products</Link>
+                                <Link href="/Products" className="header_nav_link">Products</Link>
                             </li>
                             <li className="header_nav_item">
                                 <Link href="/Contacts" className="header_nav_link">Contacts</Link>
