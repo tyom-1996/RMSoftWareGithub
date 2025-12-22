@@ -21,31 +21,25 @@ const Products: React.FC = () => {
         {
             id: 1,
             title: "SEEZUS INTELLIGENCE",
-            img: '/images/product_img1.png',
+            img: '/images/product_img1.jpeg',
             description:
                 "Automated video security & real-time anomaly detection",
         },
         {
             id: 2,
             title: "GUGU RETAIL CRM",
-            img: '/images/product_img2.png',
+            img: '/images/product_img2.jpeg',
             description:
                 "Unified customer data to boost loyalty and sales growth",
         },
         {
             id: 3,
             title: "DISTRIBOX LOGISTICS",
-            img: '/images/product_img3.png',
+            img: '/images/product_img3.jpeg',
             description:
                 "Contactless delivery & smart locker operating systems",
         },
-        {
-            id: 4,
-            title: "CUSTOM DEVELOPMENT",
-            img: '/images/product_img4.png',
-            description:
-                "Native iOS & Android apps built for user engagement",
-        },
+   
     ]);
 
 
