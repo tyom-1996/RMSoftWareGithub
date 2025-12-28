@@ -1,4 +1,5 @@
 // pages/Products/[slug].tsx
+
 import React from "react";
 import { useRouter } from "next/router";
 import Head from "next/head";
@@ -25,6 +26,8 @@ import MailIcon from "../../assets/icons/mailIcon";
 
 // Product data - hardcoded for all 3 products (no API needed)
 const productSingle = [
+    
+
     {
         id: 1,
         slug: "seezus",
@@ -500,7 +503,7 @@ const productSingle = [
 const getSEOMetaTags = (product: typeof productSingle[0], baseUrl: string = 'https://rm-software.cz') => {
     const title = `${product.top.topTitle} | RM Software`;
     const description = product.top.topDescription;
-    const url = `${baseUrl}/Products/${product.slug}`;
+    const url = `${baseUrl}/products/${product.slug}`;
     // Use the first advantage image or a default product image for OG
     const ogImage = product.advantages && product.advantages.length > 0 
         ? `${baseUrl}${product.advantages[0].img}`
@@ -536,7 +539,7 @@ const ProductSingle: React.FC = () => {
                 <Header />
                 <div style={{ padding: "100px 20px", textAlign: "center" }}>
                     <h1>Product not found</h1>
-                    <Link href="/Products" style={{ color: "#6124E1", textDecoration: "underline" }}>
+                    <Link href="/products" style={{ color: "#6124E1", textDecoration: "underline" }}>
                         Back to Products
                     </Link>
                 </div>
@@ -623,7 +626,7 @@ const ProductSingle: React.FC = () => {
                 <div>
                     <HomeIcon />
                     <ArrowIcon />
-                    <Link href="/Products" className="top_section_header_text">Products</Link>
+                    <Link href="/products" className="top_section_header_text">Products</Link>
                     <ArrowIcon />
                     <span className="top_section_header_text">{product.title}</span>
                 </div>
@@ -691,7 +694,7 @@ const ProductSingle: React.FC = () => {
                                     <p className="about_seezus_section_text">{product.aboutSeezus.aboutDescription}</p>
                                 </div>
                                 <div className="about_seezus_section_image">
-                                    <img src={product.aboutSeezus.image} alt={product.aboutSeezus.aboutTitle} />
+                                    {/* <img src={product.aboutSeezus.image} alt={product.aboutSeezus.aboutTitle} /> */}
                                 </div>
                             </div>
                     )}
@@ -800,32 +803,32 @@ const ProductSingle: React.FC = () => {
             <section className="contacts_section">
                     <div className="contacts_section_content">
                         <div className="contacts_section_content_item">
-                            <div className="contacts_column">
+                        <div className="contacts_column">
                                 
+                                <h3 className="contacts_column_title">RM SOFTWARE</h3>
                                 <nav aria-label="Defend Insurance Group" className="contacts_nav">
                                     <ul className="contacts_list">
                                         <li className="contacts_item">
-                                            <a href="/AboutUs" className="contacts_column_title2">RM SOFTWARE</a>
+                                            <a href="/about-us" className="contacts_link">About Us</a>
                                         </li>
-                                    
                                         <li className="contacts_item">
-                                            <a href="/Contacts" className="contacts_link">Kontakt</a>
+                                            <a href="/contacts" className="contacts_link">Contacts</a>
                                         </li>
                                     </ul>
                                 </nav>
                             </div>
                             <div className="contacts_column">
-                                <a href="/Products" className="contacts_column_title">PRODUKTY</a>
+                                <a href="/products" className="contacts_column_title">PRODUKTY</a>
                                 <nav aria-label="Produkty" className="contacts_nav">
                                     <ul className="contacts_list">
                                         <li className="contacts_item">
-                                            <a href="/Products/distribox" className="contacts_link">Distribox</a>
+                                            <a href="/products/distribox" className="contacts_link">Distribox</a>
                                         </li>
                                         <li className="contacts_item">
-                                            <a href="/Products/gugu" className="contacts_link">GuGu</a>
+                                            <a href="/products/gugu" className="contacts_link">GuGu</a>
                                         </li>
                                         <li className="contacts_item">
-                                            <a href="/Products/seezus" className="contacts_link">Seezus</a>
+                                            <a href="/products/seezus" className="contacts_link">Seezus</a>
                                         </li>
                                     </ul>
                                 </nav>
@@ -835,13 +838,13 @@ const ProductSingle: React.FC = () => {
                                 <nav aria-label="Užitečné" className="contacts_nav">
                                     <ul className="contacts_list">
                                         <li className="contacts_item">
-                                            <a href="/AiDevelopment" className="contacts_link">AI development</a>
+                                            <a href="/ai-development" className="contacts_link">AI development</a>
                                         </li>
                                         <li className="contacts_item">
-                                            <a href="/MobileDevelopment" className="contacts_link">Mobile development</a>
+                                            <a href="/mobile-development" className="contacts_link">Mobile development</a>
                                         </li>
                                         <li className="contacts_item">
-                                            <a href="/CRMDevelopment" className="contacts_link">CRM development</a>
+                                            <a href="/crm-development" className="contacts_link">CRM development</a>
                                         </li>
                                     </ul>
                                 </nav>

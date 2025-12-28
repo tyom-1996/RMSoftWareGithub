@@ -318,33 +318,33 @@ const MobileDevelopment: React.FC = () => {
             <section className="contacts_section">
                     <div className="contacts_section_content">
                         <div className="contacts_section_content_item">
-                            <div className="contacts_column">
+                        <div className="contacts_column">
                                 
+                                <h3 className="contacts_column_title">RM SOFTWARE</h3>
                                 <nav aria-label="Defend Insurance Group" className="contacts_nav">
                                     <ul className="contacts_list">
                                         <li className="contacts_item">
-                                            <a href="/AboutUs" className="contacts_column_title2">RM SOFTWARE</a>
+                                            <a href="/about-us" className="contacts_link">About Us</a>
                                         </li>
-                                    
                                         <li className="contacts_item">
-                                            <a href="/Contacts" className="contacts_link">Kontakt</a>
+                                            <a href="/contacts" className="contacts_link">Contacts</a>
                                         </li>
                                     </ul>
                                 </nav>
                             </div>
                             <div className="contacts_column">
-                                <a href="/Products" className="contacts_column_title">PRODUKTY</a>
+                                <a href="/products" className="contacts_column_title">PRODUKTY</a>
                                 <nav aria-label="Produkty" className="contacts_nav">
                                     <ul className="contacts_list">
                                         <li className="contacts_item">
-                                            <a href="/Products/seezus" className="contacts_link">Seezus</a>
+                                            <a href="/products/seezus" className="contacts_link">Seezus</a>
                                         </li>
                                         <li className="contacts_item">
-                                            <a href="/Products/gugu" className="contacts_link">GuGu</a>
+                                            <a href="/products/gugu" className="contacts_link">GuGu</a>
                                         </li>
                                       
                                         <li className="contacts_item">
-                                            <a href="/Products/distribox" className="contacts_link">Distribox</a>
+                                            <a href="/products/distribox" className="contacts_link">Distribox</a>
                                         </li>
                                     </ul>
                                 </nav>
@@ -354,13 +354,13 @@ const MobileDevelopment: React.FC = () => {
                                 <nav aria-label="Užitečné" className="contacts_nav">
                                     <ul className="contacts_list">
                                         <li className="contacts_item">
-                                            <a href="/AiDevelopment" className="contacts_link">AI development</a>
+                                            <a href="/ai-development" className="contacts_link">AI development</a>
                                         </li>
                                         <li className="contacts_item">
                                             <a className="contacts_link">Mobile development</a>
                                         </li>
                                         <li className="contacts_item">
-                                            <a href="/CRMDevelopment" className="contacts_link">CRM development</a>
+                                            <a href="/crm-development" className="contacts_link">CRM development</a>
                                         </li>
                                     </ul>
                                 </nav>

@@ -15,7 +15,11 @@ const Home: React.FC = () => {
     const [isLanguageDropdownOpen, setIsLanguageDropdownOpen] = useState(false);
   
     const changeLanguage = (newLocale: string) => {
-      router.push(asPath, asPath, { locale: newLocale });
+      // Strip any existing locale prefix from the current path
+      const cleanPath = asPath.replace(/^\/(en|cz)(?=\/|$)/, '') || '/';
+      // Always include the selected locale in the URL so CZ is visible too
+      const newPath = `/${newLocale}${cleanPath === '/' ? '' : cleanPath}`;
+      router.push(newPath, newPath, { locale: newLocale, scroll: false });
       setIsLanguageDropdownOpen(false);
     };
   
@@ -99,13 +103,13 @@ const Home: React.FC = () => {
                     <nav className={`header_nav ${isMenuOpen ? 'open' : ''}`}>
                         <ul className="header_nav_list">
                             <li className="header_nav_item">
-                                <Link href="/AboutUs" className={`header_nav_link ${router.pathname === '/' ? 'active' : ''}`} onClick={closeMenu}>About us</Link>
+                                <Link href="/about-us" className={`header_nav_link ${router.pathname === '/' ? 'active' : ''}`} onClick={closeMenu}>About us</Link>
                             </li>
                             <li className="header_nav_item">
-                                <Link href="/Products" className="header_nav_link" onClick={closeMenu}>Products</Link>
+                                <Link href="/products" className="header_nav_link" onClick={closeMenu}>Products</Link>
                             </li>
                             <li className="header_nav_item">
-                                <Link href="/Contacts" className="header_nav_link" onClick={closeMenu}>Contacts</Link>
+                                <Link href="/contacts" className="header_nav_link" onClick={closeMenu}>Contacts</Link>
                             </li>
                         
                         </ul>
@@ -124,6 +128,13 @@ const Home: React.FC = () => {
                     </button>
                     {isLanguageDropdownOpen && (
                         <div className="language-dropdown-menu">
+                             <button
+                                onClick={() => changeLanguage('cz')}
+                                className={`language-dropdown-item ${locale === 'cz' ? 'active' : ''}`}
+                            >
+                                <CzFlagIcon />
+                                <span>CZ</span>
+                            </button>
                             <button
                                 onClick={() => changeLanguage('en')}
                                 className={`language-dropdown-item ${locale === 'en' ? 'active' : ''}`}
@@ -131,13 +142,7 @@ const Home: React.FC = () => {
                                 <EnFlagIcon />
                                 <span>EN</span>
                             </button>
-                            <button
-                                onClick={() => changeLanguage('cz')}
-                                className={`language-dropdown-item ${locale === 'cz' ? 'active' : ''}`}
-                            >
-                                <CzFlagIcon />
-                                <span>CZ</span>
-                            </button>
+                           
                         </div>
                     )}
                 </div>

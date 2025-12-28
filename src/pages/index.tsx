@@ -63,7 +63,7 @@ const Home: React.FC = () => {
     const [servicesStats] = useState([
         {
             id: 1,
-            link: "/Products/seezus",
+            link: "/products/seezus",
             image: "/images/services_img1.png",
             title: "AI Video Analytics",
             description:
@@ -71,7 +71,7 @@ const Home: React.FC = () => {
         },
         {
             id: 2,
-            link: "/Products/gugu",
+            link: "/products/gugu",
             image: "/images/services_img2.png",
             title: "Retail Growth Engine",
             description:
@@ -79,7 +79,7 @@ const Home: React.FC = () => {
         },
         {
             id: 3,
-            link: "/MobileDevelopment",
+            link: "/mobile-development",
             image: "/images/services_img3.png",
             title: "Mobile Development",
             description:
@@ -87,7 +87,7 @@ const Home: React.FC = () => {
         },
         {
             id: 4,
-            link: "/Products/distribox",
+            link: "/products/distribox",
             image: "/images/services_img4.png",
             title: "Smart Locker Software",
             description:
@@ -98,7 +98,7 @@ const Home: React.FC = () => {
     const [servicesStats2] = useState([
         {
             id: 1,
-            link: "/Products/seezus",
+            link: "/products/seezus",
             image: "/images/services_img5.png",
             title: "Next-Gen AI Video Analytics",
             description:
@@ -106,7 +106,7 @@ const Home: React.FC = () => {
         },
         {
             id: 2,
-            link: "/Products/gugu",
+            link: "/products/gugu",
             image: "/images/services_img6.png",
             title: "The CRM Built for Retail",
             description:
@@ -114,7 +114,7 @@ const Home: React.FC = () => {
         },
         {
             id: 3,
-            link: "/Products/distribox",
+            link: "/products/distribox",
             image: "/images/services_img7.png",
             title: "Smart Locker Operating System",
             description:
@@ -128,6 +128,7 @@ const Home: React.FC = () => {
     const [heroSlides] = useState([
         {
             id: 1,
+            link: "/products/seezus",
             image: "/images/slider_img1.png",
             title: "Seezus AI",
             subtitle: "Včasná detekce. Rychlá reakce. Maximální ochrana",
@@ -136,6 +137,7 @@ const Home: React.FC = () => {
         },
         {
             id: 2,
+            link: "/products/gugu",
             image: "/images/slider_img2.png",
             title: "GuGu software",
             subtitle:
@@ -145,6 +147,7 @@ const Home: React.FC = () => {
         },
         {
             id: 3,
+            link: "/products/distribox",
             image: "/images/slider_img3.png",
             title: "Distribox",
             subtitle:
@@ -187,10 +190,10 @@ const Home: React.FC = () => {
                                                     {slide.subtitle}
                                                 </p>
 
-                                                <button className="top_content_image_text_button">
+                                                <Link href={slide.link} className="top_content_image_text_button">
                                                     {slide.button}
                                                     <ArrowIcon2 />
-                                                </button>
+                                                </Link>
                                                 
                                             </div>
                                         </div>
@@ -224,7 +227,7 @@ const Home: React.FC = () => {
                                 </div>
                             ))}
                         </div>
-                        <a href="/Products" className="services_section2_button">
+                        <a href="/products" className="services_section2_button">
                         Podívejte se na vše, co nabízíme
                         </a>
                     </div>
@@ -291,30 +294,31 @@ const Home: React.FC = () => {
                         <div className="contacts_section_content_item">
                             <div className="contacts_column">
                                 
+                                <h3 className="contacts_column_title">RM SOFTWARE</h3>
                                 <nav aria-label="Defend Insurance Group" className="contacts_nav">
                                     <ul className="contacts_list">
                                         <li className="contacts_item">
-                                            <a href="/AboutUs" className="contacts_column_title2">RM SOFTWARE</a>
+                                            <a href="/about-us" className="contacts_link">About Us</a>
                                         </li>
                                         <li className="contacts_item">
-                                            <a href="/Contacts" className="contacts_link">Kontakt</a>
+                                            <a href="/contacts" className="contacts_link">Contacts</a>
                                         </li>
                                     </ul>
                                 </nav>
                             </div>
                             <div className="contacts_column">
-                                <a href="/Products" className="contacts_column_title">PRODUKTY</a>
+                                <a href="/products" className="contacts_column_title">PRODUKTY</a>
                                 <nav aria-label="Produkty" className="contacts_nav">
                                     <ul className="contacts_list">
                                         <li className="contacts_item">
-                                            <a href="/Products/seezus" className="contacts_link">Seezus</a>
+                                            <a href="/products/seezus" className="contacts_link">Seezus</a>
                                         </li>
                                         <li className="contacts_item">
-                                            <a href="/Products/gugu" className="contacts_link">GuGu</a>
+                                            <a href="/products/gugu" className="contacts_link">GuGu</a>
                                         </li>
                                       
                                         <li className="contacts_item">
-                                            <a href="/Products/distribox" className="contacts_link">Distribox</a>
+                                            <a href="/products/distribox" className="contacts_link">Distribox</a>
                                         </li>
                                     </ul>
                                 </nav>
@@ -324,13 +328,13 @@ const Home: React.FC = () => {
                                 <nav aria-label="Užitečné" className="contacts_nav">
                                     <ul className="contacts_list">
                                         <li className="contacts_item">
-                                            <a href="/AiDevelopment" className="contacts_link">AI development</a>
+                                            <a href="/ai-development" className="contacts_link">AI development</a>
                                         </li>
                                         <li className="contacts_item">
-                                            <a href="/MobileDevelopment" className="contacts_link">Mobile development</a>
+                                            <a href="/mobile-development" className="contacts_link">Mobile development</a>
                                         </li>
                                         <li className="contacts_item">
-                                            <a href="/CRMDevelopment" className="contacts_link">CRM development</a>
+                                            <a href="/crm-development" className="contacts_link">CRM development</a>
                                         </li>
                                     </ul>
                                 </nav>

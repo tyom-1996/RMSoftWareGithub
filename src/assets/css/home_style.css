@@ -146,6 +146,11 @@
     font-size: 14px;
     font-weight: 400;
     background-color: #6124E1;
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    display: flex;
 }
 
 .white_block {

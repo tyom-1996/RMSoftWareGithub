@@ -2,7 +2,8 @@
 const nextConfig = {
   i18n: {
     locales: ['en', 'cz'],   // две доступные локали
-    defaultLocale: 'en',     // язык по умолчанию
+    defaultLocale: 'cz',     // язык по умолчанию
+    localeDetection: false,  // отключить автоматическое определение языка браузера
   },
 };
 

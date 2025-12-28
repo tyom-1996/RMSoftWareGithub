@@ -27,30 +27,30 @@ import MailIcon from "../../assets/icons/mailIcon";
 const  advantages = [
     {
         id: 1,
-        img: '/images/ai_dev_img1.png',
-        title: "Custom AI Software Development",
-        description: "We develop AI-driven applications tailored to your specific use case — from computer vision and analytics to automation, prediction, and decision support systems.",
+        img: '/images/crm_dev_img1.png',
+        title: "Custom CRM Applications",
+        description: "We build CRM systems fully adapted to your workflows — sales, operations, support, finance, and reporting — with flexible architecture and long-term scalability.",
         icon: DividerIcon2,
     },
     {
         id: 2,
-        img: '/images/ai_dev_img2.png',
-        title: "AI Model Fine-Tuning",
-        description: "We fine-tune existing AI models using your data to improve accuracy, performance, and relevance. This includes domain adaptation, performance optimization, and bias reduction.",
+        img: '/images/crm_dev_img2.png',
+        title: "API-Driven Architecture",
+        description: "All CRM solutions are built around robust APIs, allowing seamless integration with mobile applications, external services, and internal systems.",
         icon: DividerIcon2,
     },
     {
         id: 3,
-        img: '/images/ai_dev_img3.png',
-        title: "Proprietary AI Models",
-        description: "When off-the-shelf solutions are not enough, we design and train our own AI models — optimized for your data, infrastructure, and operational constraints.",
+        img: '/images/crm_dev_img3.png',
+        title: "Multi-Module & Financial Systems",
+        description: "We develop complex CRM platforms with multiple interconnected modules, including financial software, billing, reporting, and accounting integrations.",
         icon: DividerIcon2,
     },
     {
         id: 4,
-        img: '/images/ai_dev_img4.png',
-        title: "End-to-End AI Pipelines",
-        description: "From data collection and preprocessing to training, deployment, monitoring, and continuous improvement — we deliver complete AI pipelines ready for production.",
+        img: '/images/crm_dev_img4.png',
+        title: "Mobile & System Integration",
+        description: "Our CRM solutions connect directly to mobile applications, enabling real-time data access, synchronization, and field operations.",
     }
 ];
 
@@ -58,38 +58,38 @@ const howItWorks = [
     {
         id: 1,
         icon: HowItWorksIcon1,
-        title: "Problem Understanding",
-        description: "We start by deeply analyzing your business goals, data, and technical constraints. Together, we define the AI use case, success metrics, and the most suitable model approach.",
+        title: "Define Business Processes",
+        description: "We start by analyzing your business workflows, data structure, and operational requirements to design a CRM system tailored to your organization.",
     },      
     {   
         id: 2,
         icon: HowItWorksIcon2,
-        title: "AI Model Training & Integration",
-        description: "We train or fine-tune AI models using your data or create custom models from scratch. The models are then integrated into your software, infrastructure, or edge devices.",
+        title: "Design & Build CRM System",
+        description: "We develop a custom, API-driven CRM architecture with modular components, financial systems, and mobile connectivity based on your needs.",
     },
     {   
         id: 3,
         icon: HowItWorksIcon3,
-        title: "Model Testing & Validation",
-        description: "All models are tested in our AI labs under real-world conditions. We validate accuracy, performance, scalability, and stability, ensuring the system works reliably before deployment.",
+        title: "Integrate & Analyze Data",
+        description: "The CRM is connected to mobile apps, external services, and AI analytics engines to process data, generate insights, and automate operations.",
     },
     {   
         id: 4,
         icon: HowItWorksIcon4,
-        title: "Production Deployment",
-        description: "The final AI solution is deployed into a live production environment. We monitor performance, optimize continuously, and ensure the AI system runs efficiently at scale.",
+        title: "Deploy, Support & Scale",
+        description: "After deployment, we provide continuous delivery, system monitoring, updates, and long-term support while ensuring compliance with EU regulations.",
         }
 ];
 
 const  solution = {
     solutionIcon: SolutionIcon4,
-    solutionTitle: "Let's Build AI That Actually Works",
-    solutionDescription: "Whether you need to fine-tune an existing model or create a custom AI system from scratch, our team is ready to help.",
+    solutionTitle: "Build a CRM That Works the Way Your Business Does",
+    solutionDescription: "From concept to deployment — and long after launch — we deliver CRM systems you can rely on.",
     solutionItems: [
         {
             id: 1,
             icon: SolutionIcon1,
-            title: "Discuss Your AI Project",
+            title: "Discuss Your CRM Project",
         },
         {
             id: 2,
@@ -99,7 +99,7 @@ const  solution = {
         {
             id: 3,
             icon: SolutionIcon3,
-            title: "Contact Our AI Team",
+            title: "Contact Our CRM Team",
         }
     ]
 };
@@ -107,61 +107,96 @@ const  solution = {
 const whatMakesSeezusSmart = [
     {
         id: 1,
-        title: "Why Work With Us",
+        title: "Development & Support Process Architecture & Design",
         steps: [
-            "Deep expertise in AI software engineering",
-            "Experience with real-world, production AI systems",
-            "Ability to fine-tune and build models from scratch",
-            "Strong focus on testing, validation, and reliability",
-            "Transparent development process and measurable results",
+            "We design secure, scalable CRM architectures tailored to your business structure and growth plans.",
+
         ]
     },
     {
         id: 2,
-        title: "Use Cases",
+        title: "Development & Integration",
         steps: [
-            "Computer vision & video analytics",
-            "Predictive analytics and forecasting",
-            "Intelligent automation",
-            "Custom AI assistants and decision systems",
-            "Industry-specific AI solutions",
+            "Our team develops core CRM functionality, integrates APIs, mobile apps, financial systems, and third-party services.",
+
         ]
     },
+    {
+        id: 3,
+        title: "Testing & Validation",
+        steps: [
+            "Each CRM system is thoroughly tested for performance, security, compliance, and reliability before deployment.",
+
+        ]
+    },
+    {
+        id: 4,
+        title: "Continuous Delivery & Support",
+        steps: [
+            "After launch, we continue delivering updates, new features, system optimizations, and long-term technical support.",
+
+        ]
+    },
+    {
+        id: 5,
+        title: "Advanced Capabilities AI Data Analytics & Processing",
+        steps: [
+            "We integrate AI-powered analytics to process large datasets, generate insights, automate reporting, and support better business decisions.",
+
+        ]
+    },
+    {
+        id: 6,
+        title: "Multilanguage Support",
+        steps: [
+            "CRM systems are built with full multilingual capabilities, enabling use across different countries and teams.",
+
+        ]
+    },
+    {
+        id: 7,
+        title: "EU Compliance & Legal Standards",
+        steps: [
+            "All solutions are developed in compliance with EU legislation, including GDPR and other regulatory requirements, ensuring data protection and legal safety.",
+
+        ]
+    },
+ 
 ]
 
-const AiDevelopment: React.FC = () => {
+const CRMDevelopment: React.FC = () => {
     return (
-        <main className="main_page" id="ai_development_page">
+        <main className="main_page" id="crm_development_page">
             <Header />
             <div className="top_section_header">
                 <div>
                     <HomeIcon />
                     <ArrowIcon />
-                    <span className="top_section_header_text">AI development</span>
-                    
+                    <span className="top_section_header_text">CRM development</span>
                 </div>
             </div>
             <section className="product_single_section">
                 <div className="product_single_wrapper">
                     <div className="product_single_content">
                             <h1 className="product_single_title">
-                                Custom AI Development & Research
+                                Custom CRM Development & Business Systems
                             </h1>
-
                             <p className="product_single_description_text">
-                                From fine-tuning existing models to building proprietary AI systems — tested, validated, and deployed in real-world conditions.
-                            </p>
-                            <p className="product_single_description_text">
-                                We design, build, and deploy advanced AI solutions tailored to real business needs.
-                            </p>
-                            <p className="product_single_description_text">
-                               Our team develops custom AI software, fine-tunes state-of-the-art models, and creates proprietary AI systems from the ground up — all tested and validated in our own AI labs.
+                            Scalable, API-driven CRM solutions designed for complex business operations.We design and develop custom CRM systems tailored to your business processes.
 
                             </p>
                             <p className="product_single_description_text">
-                                We focus on practical, production-ready AI, not experiments that stay on paper.
+                              We design and develop custom CRM systems tailored to your business processes.
+                            </p>
+                           
+                            <p className="product_single_description_text">
+                               From lightweight customer management tools to complex, multi-module enterprise systems, our CRM solutions are built to integrate seamlessly with mobile applications, financial systems, and third-party platforms.
+                            </p>
+                            <p className="product_single_description_text">
+                            Our focus is on reliable, secure, and scalable CRM software that grows with your business and complies with European regulations.
 
                             </p>
+
                     </div>
                 </div>
                
@@ -204,18 +239,21 @@ const AiDevelopment: React.FC = () => {
                             <div className='about_seezus_section_items_wrapper'>
                                 <div className="about_seezus_section_content">
                                     <div className="about_seezus_section_content_wrapper">
-                                        <h2 className="about_seezus_section_title">AI Labs Built for Real-World Validation</h2>
-                                        <p className="about_seezus_section_text">All our AI solutions are developed and tested in dedicated AI labs.
-                                        Here, we simulate real-world environments, validate performance under load, test edge cases, and continuously improve model reliability</p>
-                                        <p className="about_seezus_section_text">This approach ensures that every AI system we deliver is:</p>
-                                        <p className="about_seezus_section_text">Stable under real operating conditions</p>
-                                        <p className="about_seezus_section_text">Optimized for performance and scalability</p>
-                                        <p className="about_seezus_section_text">Ready for long-term production use</p>
+                                        <h2 className="about_seezus_section_title">What Is CRM Development?</h2>
+                                        <p className="about_seezus_section_text">
+                                            CRM development is the process of designing and building custom customer relationship management systems tailored to specific business needs.
+                                        </p>
+                                        <p className="about_seezus_section_text">
+                                            We create flexible, API-driven CRM solutions that manage customers, operations, and financial processes in one connected system. Our CRM platforms integrate seamlessly with mobile applications, external services, and internal business software.
+                                        </p>
+                                        <p className="about_seezus_section_text">
+                                            Unlike off-the-shelf solutions, our CRM systems are built around your workflows, support multilingual environments, comply with EU regulations, and include advanced AI-powered data analytics for smarter decision-making.
+                                        </p>
                                     </div>
                                    
                                 </div>
                                 <div className="about_seezus_section_image">
-                                    <img src="/images/about_ai_img.png" alt="ai_labs_img" />
+                                    <img src="/images/about_ai_img3.png" alt="ai_labs_img" />
                                 </div>
                             </div>
 
@@ -224,7 +262,7 @@ const AiDevelopment: React.FC = () => {
             <section className="how_it_works_section">
                 <div className="how_it_works_section_wrapper">
                     <div className="how_it_works_section_content">
-                        <h2 className="how_it_works_section_title">HOW AI DEVELOPMENT WORKS</h2>
+                        <h2 className="how_it_works_section_title">HOW CRM DEVELOPMENT WORKS</h2>
                         {howItWorks && (
                                 <div className="how_it_works_section_items">
                                     {howItWorks.map((item) => {
@@ -249,7 +287,7 @@ const AiDevelopment: React.FC = () => {
                     </div>
                 </div>
             </section>
-            <section className="solution_section">
+             <section className="solution_section">
                 <div className="solution_section_wrapper">
                     <div className="solution_section_content">
                         {solution && (() => {
@@ -288,7 +326,7 @@ const AiDevelopment: React.FC = () => {
                         })()}
                     </div>
                 </div>
-            </section>           
+            </section>          
             <section className="what_makes_smart_section">
                 <div className="what_makes_smart_section_header">
                     <img src="/images/seezus_img.png" alt="what_makes_smart_section_header" />
@@ -326,33 +364,33 @@ const AiDevelopment: React.FC = () => {
             <section className="contacts_section">
                     <div className="contacts_section_content">
                         <div className="contacts_section_content_item">
-                            <div className="contacts_column">
+                        <div className="contacts_column">
                                 
+                                <h3 className="contacts_column_title">RM SOFTWARE</h3>
                                 <nav aria-label="Defend Insurance Group" className="contacts_nav">
                                     <ul className="contacts_list">
                                         <li className="contacts_item">
-                                            <a href="/AboutUs" className="contacts_column_title2">RM SOFTWARE</a>
+                                            <a href="/about-us" className="contacts_link">About Us</a>
                                         </li>
-                                    
                                         <li className="contacts_item">
-                                            <a href="/Contacts" className="contacts_link">Kontakt</a>
+                                            <a href="/contacts" className="contacts_link">Contacts</a>
                                         </li>
                                     </ul>
                                 </nav>
                             </div>
                             <div className="contacts_column">
-                                <a href="/Products" className="contacts_column_title">PRODUKTY</a>
+                                <a href="/products" className="contacts_column_title">PRODUKTY</a>
                                 <nav aria-label="Produkty" className="contacts_nav">
                                     <ul className="contacts_list">
                                         <li className="contacts_item">
-                                            <a href="/Products/seezus" className="contacts_link">Seezus</a>
+                                            <a href="/products/seezus" className="contacts_link">Seezus</a>
                                         </li>
                                         <li className="contacts_item">
-                                            <a href="/Products/gugu" className="contacts_link">GuGu</a>
+                                            <a href="/products/gugu" className="contacts_link">GuGu</a>
                                         </li>
                                       
                                         <li className="contacts_item">
-                                            <a href="/Products/distribox" className="contacts_link">Distribox</a>
+                                            <a href="/products/distribox" className="contacts_link">Distribox</a>
                                         </li>
                                     </ul>
                                 </nav>
@@ -362,13 +400,13 @@ const AiDevelopment: React.FC = () => {
                                 <nav aria-label="Užitečné" className="contacts_nav">
                                     <ul className="contacts_list">
                                         <li className="contacts_item">
-                                            <a  className="contacts_link">AI development</a>
+                                            <a href="/ai-development" className="contacts_link">AI development</a>
                                         </li>
                                         <li className="contacts_item">
-                                            <a href="/MobileDevelopment" className="contacts_link">Mobile development</a>
+                                            <a href="/mobile-development" className="contacts_link">Mobile development</a>
                                         </li>
                                         <li className="contacts_item">
-                                            <a href="/CRMDevelopment" className="contacts_link">CRM development</a>
+                                            <a  className="contacts_link">CRM development</a>
                                         </li>
                                     </ul>
                                 </nav>
@@ -403,5 +441,5 @@ const AiDevelopment: React.FC = () => {
     );
 };
 
-export default AiDevelopment;
+export default CRMDevelopment;
 

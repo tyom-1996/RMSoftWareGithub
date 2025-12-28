@@ -10,12 +10,12 @@ const products = [
 // Main pages
 const mainPages = [
     '',
-    '/Products',
-    '/AboutUs',
-    '/Contacts',
-    '/AiDevelopment',
-    '/MobileDevelopment',
-    '/CRMDevelopment',
+    '/products',
+    '/about-us',
+    '/contacts',
+    '/ai-development',
+    '/mobile-development',
+    '/crm-development',
 ];
 
 function generateSiteMap() {
@@ -43,12 +43,12 @@ function generateSiteMap() {
        .map((product) => {
          return `
        <url>
-           <loc>${baseUrl}/Products/${product.slug}</loc>
+           <loc>${baseUrl}/products/${product.slug}</loc>
            <lastmod>${currentDate}</lastmod>
            <changefreq>monthly</changefreq>
            <priority>0.9</priority>
-           <xhtml:link rel="alternate" hreflang="cs" href="${baseUrl}/Products/${product.slug}" />
-           <xhtml:link rel="alternate" hreflang="en" href="${baseUrl}/Products/${product.slug}" />
+           <xhtml:link rel="alternate" hreflang="cs" href="${baseUrl}/products/${product.slug}" />
+           <xhtml:link rel="alternate" hreflang="en" href="${baseUrl}/products/${product.slug}" />
        </url>
      `;
        })
