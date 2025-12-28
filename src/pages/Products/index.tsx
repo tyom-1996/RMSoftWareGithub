@@ -1,6 +1,7 @@
 // pages/index.tsx
 import React, { useState } from "react";
 import { useRouter } from "next/router";
+import Link from "next/link";
 import Header from "../../components/header";
 import HomeIcon from "../../assets/icons/homeIcon";
 import ArrowIcon from "../../assets/icons/arrowIcon";
@@ -107,9 +108,9 @@ const Products: React.FC = () => {
                                         <p className="products2_wrapper_item_description">
                                             {item.description}
                                         </p>
-                                        <button className="products2_wrapper_item_button">
+                                        <Link href={`/Products/${item.id}`} className="products2_wrapper_item_button">
                                             Více informací
-                                        </button>
+                                        </Link>
                                        
                                     </div>
                                  
@@ -160,13 +161,13 @@ const Products: React.FC = () => {
                                 <nav aria-label="Užitečné" className="contacts_nav">
                                     <ul className="contacts_list">
                                         <li className="contacts_item">
-                                            <a href="#" className="contacts_link">AI development</a>
+                                            <a href="/AiDevelopment" className="contacts_link">AI development</a>
                                         </li>
                                         <li className="contacts_item">
-                                            <a href="#" className="contacts_link">Mobile development</a>
+                                            <a href="/MobileDevelopment" className="contacts_link">Mobile development</a>
                                         </li>
                                         <li className="contacts_item">
-                                            <a href="#" className="contacts_link">CRM development</a>
+                                            <a href="/CrmDevelopment" className="contacts_link">CRM development</a>
                                         </li>
                                     </ul>
                                 </nav>

@@ -318,13 +318,13 @@ const Home: React.FC = () => {
                                 <nav aria-label="Užitečné" className="contacts_nav">
                                     <ul className="contacts_list">
                                         <li className="contacts_item">
-                                            <a href="#" className="contacts_link">AI development</a>
+                                            <a href="/AiDevelopment" className="contacts_link">AI development</a>
                                         </li>
                                         <li className="contacts_item">
-                                            <a href="#" className="contacts_link">Mobile development</a>
+                                            <a href="/MobileDevelopment" className="contacts_link">Mobile development</a>
                                         </li>
                                         <li className="contacts_item">
-                                            <a href="#" className="contacts_link">CRM development</a>
+                                            <a href="/CrmDevelopment" className="contacts_link">CRM development</a>
                                         </li>
                                     </ul>
                                 </nav>

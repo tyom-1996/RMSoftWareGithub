@@ -7,6 +7,7 @@ const ContactsEmailIcon   = () => (
   xmlnsXlink="http://www.w3.org/1999/xlink"
   width={40}
   height={40}
+  viewBox="0 0 40 39.55"
   fill="none"
 >
   <path fill="url(#g)" d="M0 0h40v39.55H0z" />

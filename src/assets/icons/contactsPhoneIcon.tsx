@@ -8,6 +8,7 @@ const ContactsPhoneIcon   = () => (
   width={40}
   height={40}
   fill="none"
+  viewBox="0 0 40 40"
 >
   <path fill="url(#z)" d="M0 0h40v40H0z" />
   <defs>
