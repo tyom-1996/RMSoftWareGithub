@@ -1,0 +1,490 @@
+{
+  "common": {
+    "nav": {
+      "about": "About us",
+      "products": "Products",
+      "contacts": "Contacts"
+    },
+    "footer": {
+      "privacy": "Privacy Policy",
+      "copyright": "© 2025 RM-Software"
+    },
+    "contactColumns": {
+      "companyTitle": "RM SOFTWARE",
+      "companyLinks": [
+        { "href": "/about-us", "label": "About Us" },
+        { "href": "/contacts", "label": "Contacts" }
+      ],
+      "productsTitle": "Products",
+      "productsLinks": [
+        { "href": "/products/seezus", "label": "Seezus" },
+        { "href": "/products/gugu", "label": "GuGu" },
+        { "href": "/products/distribox", "label": "Distribox" }
+      ],
+      "usefulTitle": "Useful",
+      "usefulLinks": [
+        { "href": "/ai-development", "label": "AI development" },
+        { "href": "/mobile-development", "label": "Mobile development" },
+        { "href": "/crm-development", "label": "CRM development" }
+      ]
+    },
+    "reception": {
+      "title": "Reception",
+      "phone": "+420 296 330 311",
+      "hours": "working days 9:00 - 16:00",
+      "callLabel": "We will call you back",
+      "email": "info@rm-software.cz"
+    }
+  },
+  "home": {
+    "heroSlides": [
+      {
+        "id": 1,
+        "link": "/products/seezus",
+        "image": "/images/slider_img1.png",
+        "title": "Seezus AI",
+        "subtitle": "Early detection. Fast response. Maximum protection.",
+        "button": "More info"
+      },
+      {
+        "id": 2,
+        "link": "/products/gugu",
+        "image": "/images/slider_img2.png",
+        "title": "GuGu software",
+        "subtitle": "Data under control. Costs under watch.",
+        "button": "More info"
+      },
+      {
+        "id": 3,
+        "link": "/products/distribox",
+        "image": "/images/slider_img3.png",
+        "title": "Distribox",
+        "subtitle": "Fast. Simple. Anytime.",
+        "button": "More info"
+      }
+    ],
+    "servicesStats": [
+      {
+        "id": 1,
+        "link": "/products/seezus",
+        "image": "/images/services_img1.png",
+        "title": "AI Video Analytics",
+        "description": "Secure your perimeter with Seezus. Our AI-driven video analysis detects anomalies and threats in real time without human error."
+      },
+      {
+        "id": 2,
+        "link": "/products/gugu",
+        "image": "/images/services_img2.png",
+        "title": "Retail Growth Engine",
+        "description": "Boost sales with Gugu CRM. A specialized system for retail to track customer journeys and optimize your sales pipeline."
+      },
+      {
+        "id": 3,
+        "link": "/mobile-development",
+        "image": "/images/services_img3.png",
+        "title": "Mobile Development",
+        "description": "Custom iOS and Android applications. We build intuitive mobile experiences that connect your business directly to your users."
+      },
+      {
+        "id": 4,
+        "link": "/products/distribox",
+        "image": "/images/services_img4.png",
+        "title": "Smart Locker Software",
+        "description": "Automate your logistics with Distribox. Reliable software for self-pickup terminals and contactless delivery management."
+      }
+    ],
+    "servicesStats2": [
+      {
+        "id": 1,
+        "link": "/products/seezus",
+        "image": "/images/services_img5.png",
+        "title": "Next-Gen AI Video Analytics",
+        "description": "Transform your surveillance cameras into active security guards. Seezus uses advanced artificial intelligence to analyze video feeds in real time, instantly detecting anomalies, unauthorized access, and suspicious behavior. It proactively alerts your security team, preventing incidents before they happen rather than just recording them."
+      },
+      {
+        "id": 2,
+        "link": "/products/gugu",
+        "image": "/images/services_img6.png",
+        "title": "The CRM Built for Retail",
+        "description": "Stop using generic tools for your retail business. Gugu CRM is engineered to handle the specific dynamics of retail sales and customer management. It centralizes shopper data across all channels, streamlines your sales pipelines, and provides actionable insights that help you personalize offers and turn one-time buyers into loyal returning customers."
+      },
+      {
+        "id": 3,
+        "link": "/products/distribox",
+        "image": "/images/services_img7.png",
+        "title": "Smart Locker Operating System",
+        "description": "Automate your last-mile logistics with a complete software solution for parcel terminals. Distribox manages the entire self-pickup process, from locker allocation to generating secure QR codes for users. Offer your clients a seamless, 24/7 contactless pickup experience while significantly reducing your delivery and courier costs."
+      }
+    ],
+    "viewAll": "See everything we offer",
+    "moreInfo": "More info",
+    "productsSectionTitle": "RM SOFTWARE",
+    "productsStats": [
+      {
+        "id": 1,
+        "value": "2011",
+        "label": "Founded",
+        "description": "Since 2011 we have been developing modern software solutions that help companies automate processes and safely scale their business."
+      },
+      {
+        "id": 2,
+        "value": "100+",
+        "label": "Partners",
+        "description": "We work with more than a hundred partners across industries including e-commerce, logistics, finance, manufacturing, and technology."
+      },
+      {
+        "id": 3,
+        "value": "4",
+        "label": "European markets",
+        "description": "We operate in the Czech Republic, Slovakia, Germany, and France, supporting clients who demand reliability and performance."
+      },
+      {
+        "id": 4,
+        "value": "1M+",
+        "label": "Transactions per day",
+        "description": "Our systems process over one million transactions daily, ensuring maximum stability and minimal downtime thanks to robust architecture and modern technologies."
+      }
+    ]
+  },
+  "about": {
+    "breadcrumb": "About Us",
+    "heroTitle": "Turning ideas into digital reality",
+    "aboutTitle": "We are experts in building unique custom software.",
+    "aboutParagraphs": [
+      "We deliver modern and innovative digital solutions to companies and individuals that respond to the rapidly changing technology world.",
+      "Our mission is to exceed the expectations of clients and partners by developing top-tier applications, automating processes, and providing premium technical support so they can focus on their growth and “Achieve more.”"
+    ],
+    "productsSectionTitle": "RM SOFTWARE",
+    "servicesStats": [
+      {
+        "id": 1,
+        "image": "/images/service_img1.png",
+        "title": "AI Video Intelligence",
+        "description": "A next-generation security platform powered by artificial intelligence. Seezus transforms standard surveillance into proactive protection by automatically detecting threats, analyzing movement patterns, and alerting you to anomalies in real time."
+      },
+      {
+        "id": 2,
+        "image": "/images/service_img2.png",
+        "title": "Retail Growth Engine",
+        "description": "A specialized Customer Relationship Management system built for the dynamic world of retail. Gugu CRM unifies customer data, tracks purchase history, and optimizes sales pipelines to help retailers build stronger, more profitable connections with their shoppers."
+      },
+      {
+        "id": 3,
+        "image": "/images/service_img3.png",
+        "title": "Smart Locker Management",
+        "description": "The operating system for modern logistics. Distribox fully automates the parcel pickup process, managing locker availability and generating secure QR codes for a frictionless, 24/7 contactless delivery experience."
+      }
+    ],
+    "about2Title": "RM SOFTWARE",
+    "about2Subtitle": "We deliver unique solutions and products that respond to client needs.",
+    "about2Paragraphs": [
+      "We focus on developing modern, fast, and secure software that helps companies grow, automate processes, and streamline daily operations. Our solutions are used by businesses of all sizes in the Czech Republic and abroad.",
+      "The RM Software brand dates back to 2018. From the start, the company has focused on building high-quality web and mobile applications, custom internal systems, and tools for digitalizing business processes. Thanks to growing demand and high client satisfaction, we have expanded our services to other European markets and established many long-term partnerships.",
+      "Our goal is to help clients simplify their work, reduce operating costs, and increase their competitiveness through reliable technology, automation, and innovative digital solutions. Every project is built on an individual approach, precise planning, and excellent technical execution.",
+      "Clients are always our top priority. We deliver not only quality software but also continuous support, regular updates, and new features that open up additional business opportunities and long-term loyalty.",
+      "We look forward to helping move your project forward and helping you “Achieve more.”"
+    ]
+  },
+  "contactsPage": {
+    "breadcrumb": "Contacts",
+    "heading": "Contact",
+    "description": "Do not hesitate to call or email us. We are happy to advise you whether you need to deploy AI security, optimize retail workflows, automate logistics, or consult on a custom mobile application.",
+    "phone": "+420 296 330 311",
+    "phoneHours": "working days 9:00 - 16:00",
+    "email": "info@rm-software.cz",
+    "emailLabel": "we reply within 48 hours",
+    "office": {
+      "title": "Head office",
+      "company": "RM Software s.r.o.",
+      "address": [
+        "Rádiová 1431/2a",
+        "102 00 Praha 10 – Hostivař",
+        "Czech Republic"
+      ],
+      "phone": "+420 256 256 393",
+      "email": "info@rm-software.cz",
+      "ico": "IČO: 14246619",
+      "dic": "DIČ: CZ14246619"
+    }
+  },
+  "productsPage": {
+    "breadcrumb": "Products",
+    "hero": {
+      "title": "We bring intelligence to industries where standard tools are not enough.",
+      "paragraphs": [
+        "We constantly seek ways to push the boundaries of what software can do. We do not just build applications; we engineer digital ecosystems designed to solve complex challenges in security, retail, and logistics.",
+        "Our portfolio offers specialized, high-performance platforms. Whether it is proactive threat detection with Seezus, optimizing customer relationships via Gugu CRM, or automating last-mile delivery with Distribox, we provide the digital backbone your business needs to grow.",
+        "All our products are cloud-native and ready for rapid deployment. You can explore our full range of solutions and request a demo online."
+      ]
+    },
+    "sectionTitle": "Discover our software ecosystem. Solutions ready to deploy today.",
+    "cards": [
+      {
+        "id": 1,
+        "slug": "seezus",
+        "title": "SEEZUS INTELLIGENCE",
+        "img": "/images/product_img1.jpeg",
+        "description": "Automated video security & real-time anomaly detection"
+      },
+      {
+        "id": 2,
+        "slug": "gugu",
+        "title": "GUGU RETAIL CRM",
+        "img": "/images/product_img2.jpeg",
+        "description": "Unified customer data to boost loyalty and sales growth"
+      },
+      {
+        "id": 3,
+        "slug": "distribox",
+        "title": "DISTRIBOX LOGISTICS",
+        "img": "/images/product_img3.jpeg",
+        "description": "Contactless delivery & smart locker operating systems"
+      }
+    ],
+    "moreInfo": "More info"
+  },
+  "aiDevelopment": {
+    "breadcrumb": "AI development",
+    "heroTitle": "Custom AI Development & Research",
+    "intro": [
+      "From fine-tuning existing models to building proprietary AI systems — tested, validated, and deployed in real-world conditions.",
+      "We design, build, and deploy advanced AI solutions tailored to real business needs.",
+      "Our team develops custom AI software, fine-tunes state-of-the-art models, and creates proprietary AI systems from the ground up — all tested and validated in our own AI labs.",
+      "We focus on practical, production-ready AI, not experiments that stay on paper."
+    ],
+    "advantages": [
+      {
+        "id": 1,
+        "img": "/images/ai_dev_img1.png",
+        "title": "Custom AI Software Development",
+        "description": "We develop AI-driven applications tailored to your specific use case — from computer vision and analytics to automation, prediction, and decision support systems."
+      },
+      {
+        "id": 2,
+        "img": "/images/ai_dev_img2.png",
+        "title": "AI Model Fine-Tuning",
+        "description": "We fine-tune existing AI models using your data to improve accuracy, performance, and relevance. This includes domain adaptation, performance optimization, and bias reduction."
+      },
+      {
+        "id": 3,
+        "img": "/images/ai_dev_img3.png",
+        "title": "Proprietary AI Models",
+        "description": "When off-the-shelf solutions are not enough, we design and train our own AI models — optimized for your data, infrastructure, and operational constraints."
+      },
+      {
+        "id": 4,
+        "img": "/images/ai_dev_img4.png",
+        "title": "End-to-End AI Pipelines",
+        "description": "From data collection and preprocessing to training, deployment, monitoring, and continuous improvement — we deliver complete AI pipelines ready for production."
+      }
+    ],
+    "about": {
+      "title": "AI Labs Built for Real-World Validation",
+      "paragraphs": [
+        "All our AI solutions are developed and tested in dedicated AI labs. Here, we simulate real-world environments, validate performance under load, test edge cases, and continuously improve model reliability.",
+        "This approach ensures every AI system we deliver is stable under real operating conditions, optimized for performance and scalability, and ready for long-term production use."
+      ]
+    },
+    "howItWorks": {
+      "title": "HOW AI DEVELOPMENT WORKS",
+      "items": [
+        {
+          "id": 1,
+          "title": "Problem Understanding",
+          "description": "We analyze your business goals, data, and technical constraints. Together we define the AI use case, success metrics, and the most suitable model approach."
+        },
+        {
+          "id": 2,
+          "title": "AI Model Training & Integration",
+          "description": "We train or fine-tune AI models using your data or create custom models from scratch, then integrate them into your software, infrastructure, or edge devices."
+        },
+        {
+          "id": 3,
+          "title": "Model Testing & Validation",
+          "description": "All models are tested in our AI labs under real conditions. We validate accuracy, performance, scalability, and stability before deployment."
+        },
+        {
+          "id": 4,
+          "title": "Production Deployment",
+          "description": "The final AI solution is deployed in production. We monitor performance, optimize continuously, and keep the AI running efficiently at scale."
+        }
+      ]
+    },
+    "solution": {
+      "title": "Let's Build AI That Actually Works",
+      "description": "Whether you need to fine-tune an existing model or create a custom AI system from scratch, our team is ready to help.",
+      "items": [
+        { "id": 1, "title": "Discuss Your AI Project" },
+        { "id": 2, "title": "Request a Consultation" },
+        { "id": 3, "title": "Contact Our AI Team" }
+      ]
+    },
+    "whatMakes": [
+      {
+        "id": 1,
+        "title": "Why Work With Us",
+        "steps": [
+          "Deep expertise in AI software engineering",
+          "Experience with real-world, production AI systems",
+          "Ability to fine-tune and build models from scratch",
+          "Strong focus on testing, validation, and reliability",
+          "Transparent development process and measurable results"
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Use Cases",
+        "steps": [
+          "Computer vision & video analytics",
+          "Predictive analytics and forecasting",
+          "Intelligent automation",
+          "Custom AI assistants and decision systems",
+          "Industry-specific AI solutions"
+        ]
+      }
+    ]
+  },
+  "mobileDevelopment": {
+    "breadcrumb": "Mobile development",
+    "heroTitle": "Custom Mobile Application Development",
+    "intro": [
+      "Native and cross-platform mobile apps built for performance, scalability, and long-term support.",
+      "We design, build, and deploy mobile solutions tailored to real business needs.",
+      "From API-driven apps and CRM integrations to full-scale mobile platforms, we deliver reliable solutions using modern technologies and proven development processes.",
+      "Our focus is on stable, secure, and scalable mobile products — ready for real users and long-term growth."
+    ],
+    "advantages": [
+      {
+        "id": 1,
+        "img": "/images/mobile_dev_img1.png",
+        "title": "Native Mobile Development",
+        "description": "We build high-performance mobile applications using native technologies for iOS and Android, ensuring maximum speed, stability, and full access to device capabilities."
+      },
+      {
+        "id": 2,
+        "img": "/images/mobile_dev_img2.png",
+        "title": "Cross-Platform Development",
+        "description": "Using React technologies, we create efficient cross-platform applications that reduce development time while maintaining a consistent user experience across devices."
+      },
+      {
+        "id": 3,
+        "img": "/images/mobile_dev_img3.png",
+        "title": "API & CRM Integration",
+        "description": "Our mobile apps seamlessly integrate with APIs, CRM systems, and backend services, enabling real-time data synchronization and automated workflows."
+      },
+      {
+        "id": 4,
+        "img": "/images/mobile_dev_img4.png",
+        "title": "Custom Mobile Solutions",
+        "description": "Every application is designed around your business logic — from internal enterprise tools to customer-facing mobile products."
+      }
+    ],
+    "about": {
+      "title": "What Is Mobile Development?",
+      "paragraphs": [
+        "Mobile development is the process of designing, building, and maintaining applications for iOS and Android devices.",
+        "We create custom mobile apps tailored to your business needs — from API-driven and CRM-based applications to full-featured mobile platforms. Using native technologies and React-based solutions, we deliver fast, secure, and scalable apps.",
+        "Our mobile solutions are designed for real users, fully compliant with Apple App Store and Google Play requirements, and supported long after launch with continuous updates and improvements."
+      ]
+    },
+    "howItWorks": {
+      "title": "Development Process",
+      "items": [
+        { "id": 1, "title": "Architecture & Planning", "description": "We design a scalable mobile architecture based on your API, backend, and business requirements." },
+        { "id": 2, "title": "Development & Integration", "description": "We implement features, integrate external systems, and ensure smooth communication between mobile apps and backend services." },
+        { "id": 3, "title": "App Store Review & Publishing", "description": "We handle the full Google Play and Apple App Store review process, ensuring compliance and successful publication." },
+        { "id": 4, "title": "Continuous Delivery & Support", "description": "After launch, we continue delivering updates, monitoring performance, fixing issues, and improving the app based on user feedback." }
+      ]
+    },
+    "solution": {
+      "title": "Let’s Build a Mobile App Your Users Will Love",
+      "description": "From idea to App Store — and beyond — we deliver mobile applications that grow with your business.",
+      "items": [
+        { "id": 1, "title": "Start Your Mobile Project" },
+        { "id": 2, "title": "Request a Consultation" },
+        { "id": 3, "title": "Contact Our Mobile Team" }
+      ]
+    },
+    "whatMakes": [
+      {
+        "id": 1,
+        "title": "Quality, Security & Support",
+        "steps": [
+          "Clean, maintainable codebases",
+          "Secure API communication and data handling",
+          "Compliance with App Store and Google Play requirements",
+          "Long-term maintenance and feature expansion",
+          "Dedicated technical support and monitoring",
+          "Use Cases",
+          "CRM mobile applications",
+          "Business and enterprise mobile tools",
+          "Customer portals and service apps",
+          "API-driven mobile platforms",
+          "Internal operations and workflow apps"
+        ]
+      }
+    ]
+  },
+  "crmDevelopment": {
+    "breadcrumb": "CRM development",
+    "heroTitle": "Custom CRM Development & Business Systems",
+    "intro": [
+      "Scalable, API-driven CRM solutions designed for complex business operations.",
+      "We design and develop custom CRM systems tailored to your business processes.",
+      "From lightweight customer management tools to complex, multi-module enterprise systems, our CRM solutions integrate seamlessly with mobile applications, financial systems, and third-party platforms.",
+      "We focus on reliable, secure, and scalable CRM software that grows with your business and complies with European regulations."
+    ],
+    "advantages": [
+      { "id": 1, "img": "/images/crm_dev_img1.png", "title": "Custom CRM Applications", "description": "We build CRM systems fully adapted to your workflows — sales, operations, support, finance, and reporting — with flexible architecture and long-term scalability." },
+      { "id": 2, "img": "/images/crm_dev_img2.png", "title": "API-Driven Architecture", "description": "All CRM solutions are built around robust APIs, allowing seamless integration with mobile applications, external services, and internal systems." },
+      { "id": 3, "img": "/images/crm_dev_img3.png", "title": "Multi-Module & Financial Systems", "description": "We develop complex CRM platforms with interconnected modules, including financial software, billing, reporting, and accounting integrations." },
+      { "id": 4, "img": "/images/crm_dev_img4.png", "title": "Mobile & System Integration", "description": "Our CRM solutions connect directly to mobile applications, enabling real-time data access, synchronization, and field operations." }
+    ],
+    "about": {
+      "title": "What Is CRM Development?",
+      "paragraphs": [
+        "CRM development is the process of designing and building custom customer relationship management systems tailored to specific business needs.",
+        "We create flexible, API-driven CRM solutions that manage customers, operations, and financial processes in one connected system. Our CRM platforms integrate seamlessly with mobile applications, external services, and internal business software.",
+        "Unlike off-the-shelf solutions, our CRM systems are built around your workflows, support multilingual environments, comply with EU regulations, and include advanced AI-powered data analytics for smarter decision-making."
+      ]
+    },
+    "howItWorks": {
+      "title": "HOW CRM DEVELOPMENT WORKS",
+      "items": [
+        { "id": 1, "title": "Define Business Processes", "description": "We analyze your workflows, data structure, and requirements to design a CRM tailored to your organization." },
+        { "id": 2, "title": "Design & Build CRM System", "description": "We develop a custom, API-driven CRM architecture with modular components, financial systems, and mobile connectivity." },
+        { "id": 3, "title": "Integrate & Analyze Data", "description": "The CRM is connected to mobile apps, external services, and AI analytics to process data, generate insights, and automate operations." },
+        { "id": 4, "title": "Deploy, Support & Scale", "description": "After deployment, we provide continuous delivery, monitoring, updates, and long-term support, ensuring compliance with EU regulations." }
+      ]
+    },
+    "solution": {
+      "title": "Build a CRM That Works the Way Your Business Does",
+      "description": "From concept to deployment — and long after launch — we deliver CRM systems you can rely on.",
+      "items": [
+        { "id": 1, "title": "Discuss Your CRM Project" },
+        { "id": 2, "title": "Request a Consultation" },
+        { "id": 3, "title": "Contact Our CRM Team" }
+      ]
+    },
+    "whatMakes": [
+      { "id": 1, "title": "Development & Support Process Architecture & Design", "steps": ["We design secure, scalable CRM architectures tailored to your business structure and growth plans."] },
+      { "id": 2, "title": "Development & Integration", "steps": ["We develop core CRM functionality and integrate APIs, mobile apps, financial systems, and third-party services."] },
+      { "id": 3, "title": "Testing & Validation", "steps": ["Each CRM system is tested for performance, security, compliance, and reliability before deployment."] },
+      { "id": 4, "title": "Continuous Delivery & Support", "steps": ["After launch, we deliver updates, new features, optimizations, and long-term technical support."] },
+      { "id": 5, "title": "Advanced Capabilities AI Data Analytics & Processing", "steps": ["We integrate AI-powered analytics to process large datasets, generate insights, automate reporting, and support better decisions."] },
+      { "id": 6, "title": "Multilanguage Support", "steps": ["CRM systems are built with full multilingual capabilities, enabling use across countries and teams."] },
+      { "id": 7, "title": "EU Compliance & Legal Standards", "steps": ["All solutions comply with EU legislation, including GDPR and other regulatory requirements, ensuring data protection and legal safety."] }
+    ]
+  },
+  "privacyPolicy": {
+    "breadcrumb": "Privacy Policy",
+    "title": "Privacy Policy",
+    "paragraphs": [
+      "We respect your privacy and process personal data in accordance with applicable laws, including GDPR.",
+      "We collect only the data necessary to provide our services, improve security, and enhance user experience.",
+      "We do not sell personal data to third parties. Data may be shared with trusted processors solely to deliver our services.",
+      "You may request access, correction, or deletion of your personal data at any time by contacting us at info@rm-software.cz."
+    ]
+  }
+}
+

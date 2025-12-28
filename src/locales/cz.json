@@ -1,0 +1,414 @@
+{
+  "common": {
+    "nav": {
+      "about": "O nás",
+      "products": "Produkty",
+      "contacts": "Kontakty"
+    },
+    "footer": {
+      "privacy": "Ochrana osobních údajů",
+      "copyright": "© 2025 RM-Software"
+    },
+    "contactColumns": {
+      "companyTitle": "RM SOFTWARE",
+      "companyLinks": [
+        { "href": "/about-us", "label": "O nás" },
+        { "href": "/contacts", "label": "Kontakty" }
+      ],
+      "productsTitle": "Produkty",
+      "productsLinks": [
+        { "href": "/products/seezus", "label": "Seezus" },
+        { "href": "/products/gugu", "label": "GuGu" },
+        { "href": "/products/distribox", "label": "Distribox" }
+      ],
+      "usefulTitle": "Užitečné",
+      "usefulLinks": [
+        { "href": "/ai-development", "label": "AI vývoj" },
+        { "href": "/mobile-development", "label": "Vývoj mobilních aplikací" },
+        { "href": "/crm-development", "label": "Vývoj CRM" }
+      ]
+    },
+    "reception": {
+      "title": "Recepce",
+      "phone": "+420 296 330 311",
+      "hours": "všední dny 9:00 - 16:00",
+      "callLabel": "Zavoláme vám",
+      "email": "info@rm-software.cz"
+    }
+  },
+  "home": {
+    "heroSlides": [
+      {
+        "id": 1,
+        "link": "/products/seezus",
+        "image": "/images/slider_img1.png",
+        "title": "Seezus AI",
+        "subtitle": "Včasná detekce. Rychlá reakce. Maximální ochrana.",
+        "button": "Více informací"
+      },
+      {
+        "id": 2,
+        "link": "/products/gugu",
+        "image": "/images/slider_img2.png",
+        "title": "GuGu software",
+        "subtitle": "Data pod kontrolou. Náklady pod dohledem.",
+        "button": "Více informací"
+      },
+      {
+        "id": 3,
+        "link": "/products/distribox",
+        "image": "/images/slider_img3.png",
+        "title": "Distribox",
+        "subtitle": "Rychlé. Jednoduché. Kdykoliv.",
+        "button": "Více informací"
+      }
+    ],
+    "servicesStats": [
+      {
+        "id": 1,
+        "link": "/products/seezus",
+        "image": "/images/services_img1.png",
+        "title": "AI video analytika",
+        "description": "Zabezpečte perimetr se Seezus. Naše AI analýza videa v reálném čase detekuje anomálie a hrozby bez lidských chyb."
+      },
+      {
+        "id": 2,
+        "link": "/products/gugu",
+        "image": "/images/services_img2.png",
+        "title": "CRM pro retail",
+        "description": "Zvyšte prodeje s Gugu CRM. Specializovaný systém pro retail, který sleduje cesty zákazníků a optimalizuje váš prodejní proces."
+      },
+      {
+        "id": 3,
+        "link": "/mobile-development",
+        "image": "/images/services_img3.png",
+        "title": "Vývoj mobilních aplikací",
+        "description": "Tvorba vlastních aplikací pro iOS i Android. Stavíme intuitivní mobilní zážitky, které spojují vaši firmu se zákazníky."
+      },
+      {
+        "id": 4,
+        "link": "/products/distribox",
+        "image": "/images/services_img4.png",
+        "title": "Software pro chytré boxy",
+        "description": "Automatizujte logistiku s Distriboxem. Spolehlivý software pro samoobslužné boxy a bezkontaktní doručení."
+      }
+    ],
+    "servicesStats2": [
+      {
+        "id": 1,
+        "link": "/products/seezus",
+        "image": "/images/services_img5.png",
+        "title": "AI video analytika nové generace",
+        "description": "Proměňte kamerový systém v aktivní ochranu. Seezus analyzuje záznamy pomocí pokročilé AI v reálném čase, okamžitě detekuje anomálie, neoprávněné vstupy a podezřelé chování. Proaktivně upozorní tým ostrahy a zabrání incidentům dříve, než nastanou."
+      },
+      {
+        "id": 2,
+        "link": "/products/gugu",
+        "image": "/images/services_img6.png",
+        "title": "CRM postavené pro retail",
+        "description": "Přestaňte používat obecné nástroje. Gugu CRM je navrženo pro dynamiku retailu. Centralizuje data zákazníků, zjednodušuje prodejní pipeline a dává vám data pro personalizaci nabídek a budování loajality."
+      },
+      {
+        "id": 3,
+        "link": "/products/distribox",
+        "image": "/images/services_img7.png",
+        "title": "Operační systém pro chytré boxy",
+        "description": "Automatizujte last-mile logistiku kompletním softwarem pro výdejní boxy. Distribox řídí celý proces od přidělení boxu po generování bezpečných QR kódů. Nabídněte klientům bezproblémové 24/7 vyzvednutí a snižte náklady na doručení."
+      }
+    ],
+    "viewAll": "Podívejte se na vše, co nabízíme",
+    "moreInfo": "Více informací",
+    "productsSectionTitle": "RM SOFTWARE",
+    "productsStats": [
+      {
+        "id": 1,
+        "value": "2011",
+        "label": "Vznik skupiny",
+        "description": "Od roku 2011 vyvíjíme moderní softwarová řešení, která pomáhají firmám automatizovat procesy a bezpečně škálovat jejich podnikání."
+      },
+      {
+        "id": 2,
+        "value": "100+",
+        "label": "Partnerů",
+        "description": "Spolupracujeme s více než stovkou partnerů napříč obory od e‑commerce, logistiky a financí až po výrobu a technologie."
+      },
+      {
+        "id": 3,
+        "value": "4",
+        "label": "Evropské trhy",
+        "description": "Působíme v Česku, na Slovensku, v Německu a ve Francii a podporujeme klienty, kteří kladou důraz na spolehlivost a výkon."
+      },
+      {
+        "id": 4,
+        "value": "1 mil.+",
+        "label": "Transakcí denně",
+        "description": "Naše systémy denně zpracují přes milion transakcí díky robustní architektuře a moderním technologiím se stabilitou a minimálními prostoji."
+      }
+    ]
+  },
+  "about": {
+    "breadcrumb": "O nás",
+    "heroTitle": "Proměňujeme nápady v digitální realitu",
+    "aboutTitle": "Jsme odborníci na vývoj jedinečného softwaru na míru.",
+    "aboutParagraphs": [
+      "Firmám i jednotlivcům přinášíme moderní a inovativní digitální řešení, která reagují na rychle se měnící technologický svět.",
+      "Naší misí je překonávat očekávání klientů i partnerů prostřednictvím vývoje špičkových aplikací, automatizace procesů a prvotřídní technické podpory, aby se mohli soustředit na svůj růst a „Dokázat více“."
+    ],
+    "productsSectionTitle": "RM SOFTWARE",
+    "servicesStats": [
+      {
+        "id": 1,
+        "image": "/images/service_img1.png",
+        "title": "AI video inteligence",
+        "description": "Bezpečnostní platforma nové generace poháněná umělou inteligencí. Seezus mění běžný dohled v proaktivní ochranu díky automatické detekci hrozeb, analýze pohybu a upozornění v reálném čase."
+      },
+      {
+        "id": 2,
+        "image": "/images/service_img2.png",
+        "title": "Retail Growth Engine",
+        "description": "Specializovaný CRM systém navržený pro dynamiku retailu. Gugu CRM sjednocuje data o zákaznících, sleduje historii nákupů a optimalizuje prodejní pipeline, aby maloobchodu pomohl budovat silnější a ziskovější vztahy."
+      },
+      {
+        "id": 3,
+        "image": "/images/service_img3.png",
+        "title": "Řízení chytrých boxů",
+        "description": "Operační systém pro moderní logistiku. Distribox plně automatizuje proces výdeje zásilek, spravuje dostupnost boxů a generuje bezpečné QR kódy pro bezproblémové 24/7 bezkontaktní doručení."
+      }
+    ],
+    "about2Title": "RM SOFTWARE",
+    "about2Subtitle": "Přinášíme unikátní řešení a produkty, které reagují na potřeby klientů.",
+    "about2Paragraphs": [
+      "Zaměřujeme se na vývoj moderního, rychlého a bezpečného softwaru, který pomáhá firmám růst, automatizovat procesy a zefektivňovat jejich každodenní fungování. Naše řešení používají společnosti napříč odvětvími, od menších podniků po velké organizace v České republice i v zahraničí.",
+      "Historie značky RM Software sahá do roku 2018. Od svého vzniku se firma soustředí na vývoj kvalitních webových a mobilních aplikací, interních systémů na míru a nástrojů pro digitalizaci firemních procesů. Díky rostoucí poptávce a vysoké spokojenosti klientů jsme postupně rozšířili naše služby i na další evropské trhy a získali řadu dlouhodobých partnerství.",
+      "Naším cílem je pomáhat klientům zjednodušovat práci, snižovat provozní náklady a zvyšovat jejich konkurenceschopnost pomocí spolehlivých technologií, automatizace a inovativních digitálních řešení. Každý projekt stavíme na individuálním přístupu, precizním plánování a špičkovém technickém zpracování.",
+      "Klienti jsou pro nás vždy na prvním místě. Poskytujeme partnerům nejen kvalitní software, ale také kontinuální podporu, pravidelné aktualizace a nové funkce, které jim otevírají další obchodní příležitosti a budují dlouhodobou loajalitu.",
+      "Těšíme se, že i vám pomůžeme posunout váš projekt dál a „Dokázat více“."
+    ]
+  },
+  "contactsPage": {
+    "breadcrumb": "Kontakty",
+    "heading": "Kontakt",
+    "description": "Neváhejte nám zavolat nebo napsat. Rádi poradíme, ať už potřebujete nasadit AI bezpečnost, optimalizovat retailové procesy, automatizovat logistiku, nebo konzultovat vývoj mobilní aplikace na míru.",
+    "phone": "+420 296 330 311",
+    "phoneHours": "všední dny 9:00 - 16:00",
+    "email": "info@rm-software.cz",
+    "emailLabel": "odpovíme do 48 hodin",
+    "office": {
+      "title": "Centrála",
+      "company": "RM Software s.r.o.",
+      "address": [
+        "Rádiová 1431/2a",
+        "102 00 Praha 10 – Hostivař",
+        "Česká republika"
+      ],
+      "phone": "+420 256 256 393",
+      "email": "info@rm-software.cz",
+      "ico": "IČO: 14246619",
+      "dic": "DIČ: CZ14246619"
+    }
+  },
+  "productsPage": {
+    "breadcrumb": "Produkty",
+    "hero": {
+      "title": "Přinášíme inteligenci do odvětví, kde běžné nástroje nestačí.",
+      "paragraphs": [
+        "Neustále hledáme způsoby, jak posunout hranice toho, co software dokáže. Nestavíme jen aplikace – navrhujeme digitální ekosystémy pro bezpečnost, retail a logistiku.",
+        "Portfolio tvoří specializované, výkonné platformy. Ať jde o proaktivní detekci hrozeb se Seezus, řízení vztahů se zákazníky přes Gugu CRM, nebo automatizaci doručení pomocí Distriboxu, dodáme digitální páteř, na které můžete růst.",
+        "Všechny produkty jsou cloud-native a připravené k rychlému nasazení. Kompletní nabídku i žádost o demo vyřídíte online."
+      ]
+    },
+    "sectionTitle": "Objevte náš softwarový ekosystém. Řešení připravená k nasazení.",
+    "cards": [
+      {
+        "id": 1,
+        "slug": "seezus",
+        "title": "SEEZUS INTELLIGENCE",
+        "img": "/images/product_img1.jpeg",
+        "description": "Automatizovaná video bezpečnost a detekce anomálií v reálném čase"
+      },
+      {
+        "id": 2,
+        "slug": "gugu",
+        "title": "GUGU RETAIL CRM",
+        "img": "/images/product_img2.jpeg",
+        "description": "Sjednocená data zákazníků pro růst loajality a prodejů"
+      },
+      {
+        "id": 3,
+        "slug": "distribox",
+        "title": "DISTRIBOX LOGISTICS",
+        "img": "/images/product_img3.jpeg",
+        "description": "Bezkontaktní doručení a software pro chytré výdejní boxy"
+      }
+    ],
+    "moreInfo": "Více informací"
+  },
+  "aiDevelopment": {
+    "breadcrumb": "AI development",
+    "heroTitle": "Zakázkový vývoj a výzkum AI",
+    "intro": [
+      "Od ladění existujících modelů po tvorbu vlastních AI systémů — testovaných, validovaných a nasazených v reálných podmínkách.",
+      "Navrhujeme, stavíme a nasazujeme AI řešení na míru skutečným byznysovým potřebám.",
+      "Vyvíjíme vlastní AI software, ladíme špičkové modely a tvoříme proprietární systémy od základu — vše testované v našich AI laboratořích.",
+      "Soustředíme se na praktickou, produkčně připravenou AI, ne jen na experimenty na papíře."
+    ],
+    "advantages": [
+      { "id": 1, "img": "/images/ai_dev_img1.png", "title": "Vývoj AI softwaru na míru", "description": "Vyvíjíme aplikace využívající AI pro konkrétní use-cases — od počítačového vidění a analytiky po automatizaci, predikce a rozhodovací systémy." },
+      { "id": 2, "img": "/images/ai_dev_img2.png", "title": "Ladění AI modelů", "description": "Ladíme existující modely na vašich datech pro vyšší přesnost, výkon a relevanci. Zahrnuje adaptaci na doménu, optimalizaci a redukci biasu." },
+      { "id": 3, "img": "/images/ai_dev_img3.png", "title": "Vlastní AI modely", "description": "Když běžné modely nestačí, navrhujeme a trénujeme vlastní AI optimalizované pro vaše data, infrastrukturu a provozní omezení." },
+      { "id": 4, "img": "/images/ai_dev_img4.png", "title": "End-to-End AI pipeline", "description": "Od sběru dat a předzpracování po trénink, nasazení, monitoring a kontinuální zlepšování — kompletní pipeline připravená do produkce." }
+    ],
+    "about": {
+      "title": "AI laboratoře pro reálné ověření",
+      "paragraphs": [
+        "Všechna AI řešení vyvíjíme a testujeme v dedikovaných AI laboratořích. Simulujeme reálné prostředí, validujeme výkon pod zátěží, testujeme edge-cases a průběžně zvyšujeme spolehlivost.",
+        "Díky tomu jsou naše systémy stabilní v provozu, optimalizované na výkon a škálování a připravené na dlouhodobé nasazení."
+      ]
+    },
+    "howItWorks": {
+      "title": "JAK FUNGUJE AI DEVELOPMENT",
+      "items": [
+        { "id": 1, "title": "Porozumění problému", "description": "Analyzujeme cíle, data a technické limity. Společně definujeme use-case, metriky úspěchu a vhodný přístup k modelu." },
+        { "id": 2, "title": "Trénink a integrace AI modelu", "description": "Trénujeme či ladíme modely na vašich datech nebo tvoříme vlastní a integrujeme je do softwaru, infrastruktury či edge zařízení." },
+        { "id": 3, "title": "Testování a validace modelu", "description": "Modely testujeme v AI laboratořích v reálných podmínkách. Validujeme přesnost, výkon, škálovatelnost a stabilitu před nasazením." },
+        { "id": 4, "title": "Nasazení do provozu", "description": "Finální AI řešení nasazujeme do produkce. Sledujeme výkon, průběžně optimalizujeme a zajišťujeme efektivní běh ve velkém měřítku." }
+      ]
+    },
+    "solution": {
+      "title": "Postavme AI, která opravdu funguje",
+      "description": "Ať už potřebujete doladit model, nebo vytvořit vlastní AI systém, náš tým je připraven.",
+      "items": [
+        { "id": 1, "title": "Proberme váš AI projekt" },
+        { "id": 2, "title": "Domluvme konzultaci" },
+        { "id": 3, "title": "Spojte se s AI týmem" }
+      ]
+    },
+    "whatMakes": [
+      { "id": 1, "title": "Proč s námi", "steps": ["Hluboká expertiza v AI inženýrství", "Zkušenosti s produkčními AI systémy", "Umíme ladit i stavět modely od nuly", "Důraz na testování, validaci a spolehlivost", "Transparentní proces a měřitelné výsledky"] },
+      { "id": 2, "title": "Use-cases", "steps": ["Computer vision a video analytika", "Prediktivní analytika a forecasty", "Inteligentní automatizace", "Vlastní AI asistenti a rozhodovací systémy", "Oborově specifické AI řešení"] }
+    ]
+  },
+  "mobileDevelopment": {
+    "breadcrumb": "Mobile development",
+    "heroTitle": "Vývoj mobilních aplikací na míru",
+    "intro": [
+      "Nativní i cross-platform aplikace postavené na výkon, škálování a dlouhodobou podporu.",
+      "Navrhujeme, vyvíjíme a nasazujeme mobilní řešení podle reálných byznysových potřeb.",
+      "Od API-driven aplikací a CRM integrací po plnohodnotné mobilní platformy — dodáváme spolehlivá řešení na moderních technologiích.",
+      "Soustředíme se na stabilní, bezpečné a škálovatelné mobilní produkty — připravené pro skutečné uživatele a růst."
+    ],
+    "advantages": [
+      { "id": 1, "img": "/images/mobile_dev_img1.png", "title": "Nativní mobilní vývoj", "description": "Stavíme rychlé a stabilní mobilní aplikace pro iOS a Android s plným využitím schopností zařízení." },
+      { "id": 2, "img": "/images/mobile_dev_img2.png", "title": "Cross-platform vývoj", "description": "Pomocí React technologií tvoříme efektivní multiplatformní aplikace se sjednoceným UX a kratším časem vývoje." },
+      { "id": 3, "img": "/images/mobile_dev_img3.png", "title": "API a CRM integrace", "description": "Aplikace integrujeme s API, CRM a backendy pro synchronizaci dat v reálném čase a automatizované workflow." },
+      { "id": 4, "img": "/images/mobile_dev_img4.png", "title": "Mobilní řešení na míru", "description": "Každá aplikace je navržena podle vašich procesů — od interních nástrojů po zákaznické produkty." }
+    ],
+    "about": {
+      "title": "Co je mobile development?",
+      "paragraphs": [
+        "Jde o návrh, vývoj a údržbu aplikací pro iOS a Android.",
+        "Tvoříme mobilní aplikace na míru — od API a CRM řešení po plnohodnotné platformy. Používáme nativní technologie i React stack pro rychlé, bezpečné a škálovatelné aplikace.",
+        "Naše mobilní řešení jsou navržena pro reálné uživatele, splňují požadavky App Store a Google Play a mají dlouhodobou podporu a aktualizace."
+      ]
+    },
+    "howItWorks": {
+      "title": "Proces vývoje",
+      "items": [
+        { "id": 1, "title": "Architektura a plánování", "description": "Navrhujeme škálovatelnou architekturu podle API, backendu a byznys požadavků." },
+        { "id": 2, "title": "Vývoj a integrace", "description": "Implementujeme funkce, integrujeme externí systémy a zajišťujeme hladkou komunikaci mezi aplikací a backendem." },
+        { "id": 3, "title": "App Store a Google Play", "description": "Řešíme celý proces schválení a publikace v obchodech, včetně souladu s pravidly platforem." },
+        { "id": 4, "title": "Continuous delivery a podpora", "description": "Po spuštění dodáváme aktualizace, monitorujeme výkon, opravujeme chyby a zlepšujeme aplikaci dle feedbacku." }
+      ]
+    },
+    "solution": {
+      "title": "Postavme appku, kterou si uživatelé oblíbí",
+      "description": "Od nápadu po App Store — a dál — dodáme mobilní aplikace, které rostou s vaším byznysem.",
+      "items": [
+        { "id": 1, "title": "Spusťte svůj mobilní projekt" },
+        { "id": 2, "title": "Domluvte konzultaci" },
+        { "id": 3, "title": "Spojte se s mobile týmem" }
+      ]
+    },
+    "whatMakes": [
+      {
+        "id": 1,
+        "title": "Kvalita, bezpečnost a podpora",
+        "steps": [
+          "Čitelný a udržovatelný kód",
+          "Bezpečné API a práce s daty",
+          "Soulad s požadavky App Store a Google Play",
+          "Dlouhodobá údržba a rozvoj",
+          "Technická podpora a monitoring",
+          "Use-cases",
+          "Mobilní CRM aplikace",
+          "Business a enterprise nástroje",
+          "Zákaznické portály a servisní appky",
+          "API-driven mobilní platformy",
+          "Interní aplikace pro procesy a workflow"
+        ]
+      }
+    ]
+  },
+  "crmDevelopment": {
+    "breadcrumb": "Vývoj CRM",
+    "heroTitle": "Vývoj CRM a podnikových systémů na míru",
+    "intro": [
+      "Škálovatelné, API-driven CRM řešení pro komplexní provoz.",
+      "Navrhujeme a vyvíjíme CRM systémy podle vašich procesů.",
+      "Od lehkých nástrojů po komplexní více-modulové enterprise systémy — integrace s mobilními aplikacemi, finančními systémy i třetími stranami.",
+      "Důraz na spolehlivé, bezpečné a škálovatelné CRM, které roste s vaším byznysem a splňuje evropské regulace."
+    ],
+    "advantages": [
+      { "id": 1, "img": "/images/crm_dev_img1.png", "title": "Zakázkové CRM aplikace", "description": "CRM řešení šitá na míru vašim workflow — obchod, provoz, podpora, finance a reporty — s flexibilní architekturou a dlouhodobou škálovatelností." },
+      { "id": 2, "img": "/images/crm_dev_img2.png", "title": "API-first architektura", "description": "CRM stavíme kolem robustních API, aby se hladce propojilo s mobilními aplikacemi, externími službami i interními systémy." },
+      { "id": 3, "img": "/images/crm_dev_img3.png", "title": "Multi-moduly a finance", "description": "Vyvíjíme CRM s více propojenými moduly včetně finančních systémů, billingů, reportingu a účetních integrací." },
+      { "id": 4, "img": "/images/crm_dev_img4.png", "title": "Integrace s mobile a systémy", "description": "CRM napojujeme na mobilní aplikace pro realtime data, synchronizaci a práci v terénu." }
+    ],
+    "about": {
+      "title": "Co je vývoj CRM?",
+      "paragraphs": [
+        "Vývoj CRM je návrh a tvorba zákaznických systémů na míru konkrétním potřebám.",
+        "Tvoříme flexibilní, API-driven CRM, které spravuje zákazníky, operace i finance v jednom propojeném systému. Integrujeme mobilní appky, externí služby i interní software.",
+        "Na rozdíl od krabicových řešení stavíme CRM kolem vašich workflow, s podporou více jazyků, v souladu s EU regulacemi a s AI analytikou pro chytrá rozhodnutí."
+      ]
+    },
+    "howItWorks": {
+      "title": "JAK FUNGUJE CRM DEVELOPMENT",
+      "items": [
+        { "id": 1, "title": "Definice procesů", "description": "Analyzujeme workflow, data a požadavky a navrhneme CRM na míru." },
+        { "id": 2, "title": "Návrh a vývoj CRM", "description": "Vyvíjíme API-driven architekturu s moduly, finančními systémy a mobilní konektivitou." },
+        { "id": 3, "title": "Integrace a analytika", "description": "CRM propojujeme s mobilními appkami, službami a AI analytikou pro data, insighty a automatizaci." },
+        { "id": 4, "title": "Nasazení, podpora a růst", "description": "Po nasazení zajišťujeme continuous delivery, monitoring, aktualizace a dlouhodobou podporu v souladu s EU regulacemi." }
+      ]
+    },
+    "solution": {
+      "title": "Postavme CRM, které odpovídá vašemu byznysu",
+      "description": "Od konceptu po provoz — a dlouho poté — dodáme CRM, na které se můžete spolehnout.",
+      "items": [
+        { "id": 1, "title": "Proberme váš CRM projekt" },
+        { "id": 2, "title": "Domluvme konzultaci" },
+        { "id": 3, "title": "Spojte se s CRM týmem" }
+      ]
+    },
+    "whatMakes": [
+      { "id": 1, "title": "Architektura a design", "steps": ["Navrhujeme bezpečné a škálovatelné CRM architektury podle vaší struktury a růstu."] },
+      { "id": 2, "title": "Vývoj a integrace", "steps": ["Vyvíjíme core CRM funkcionalitu, integrujeme API, mobilní aplikace, finanční systémy a třetí strany."] },
+      { "id": 3, "title": "Testování a validace", "steps": ["Testujeme výkon, bezpečnost, compliance a spolehlivost před nasazením."] },
+      { "id": 4, "title": "Continuous delivery a podpora", "steps": ["Po spuštění dodáváme updaty, nové funkce, optimalizace a dlouhodobou podporu."] },
+      { "id": 5, "title": "AI analytika a zpracování dat", "steps": ["Integrujeme AI analytiku pro velká data, insighty, automatizovaný reporting a lepší rozhodování."] },
+      { "id": 6, "title": "Multijazyčná podpora", "steps": ["CRM stavíme s plnou jazykovou podporou pro různé země a týmy."] },
+      { "id": 7, "title": "Soulad s EU legislativou", "steps": ["Dodržujeme EU regulace včetně GDPR a dalších požadavků pro ochranu dat a právní jistotu."] }
+    ]
+  },
+  "privacyPolicy": {
+    "breadcrumb": "Ochrana soukromí",
+    "title": "Ochrana osobních údajů",
+    "paragraphs": [
+      "Respektujeme vaše soukromí a zpracováváme osobní data v souladu s platnými zákony včetně GDPR.",
+      "Shromažďujeme jen nezbytná data pro poskytování služeb, bezpečnost a zlepšení uživatelské zkušenosti.",
+      "Osobní data neprodáváme třetím stranám. Data můžeme sdílet s prověřenými zpracovateli výhradně za účelem poskytování služeb.",
+      "O přístup, opravu či výmaz osobních údajů můžete kdykoli požádat na info@rm-software.cz."
+    ]
+  }
+}
+

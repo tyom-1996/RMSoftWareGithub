@@ -7,10 +7,12 @@ import EnFlagIcon from "../assets/icons/enFlagIcon";
 import CzFlagIcon from "../assets/icons/czFlagIcon";
 import Link from "next/link";
 import "../assets/css/header.css";
+import useTranslations from "../hooks/useTranslations";
 
 const Home: React.FC = () => {
     const router = useRouter();;
     const { locale, asPath } = router;
+    const { t } = useTranslations();
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const [isLanguageDropdownOpen, setIsLanguageDropdownOpen] = useState(false);
   
@@ -103,13 +105,13 @@ const Home: React.FC = () => {
                     <nav className={`header_nav ${isMenuOpen ? 'open' : ''}`}>
                         <ul className="header_nav_list">
                             <li className="header_nav_item">
-                                <Link href="/about-us" className={`header_nav_link ${router.pathname === '/' ? 'active' : ''}`} onClick={closeMenu}>About us</Link>
+                                <Link href="/about-us" className={`header_nav_link ${router.pathname === '/' ? 'active' : ''}`} onClick={closeMenu}>{t('common.nav.about')}</Link>
                             </li>
                             <li className="header_nav_item">
-                                <Link href="/products" className="header_nav_link" onClick={closeMenu}>Products</Link>
+                                <Link href="/products" className="header_nav_link" onClick={closeMenu}>{t('common.nav.products')}</Link>
                             </li>
                             <li className="header_nav_item">
-                                <Link href="/contacts" className="header_nav_link" onClick={closeMenu}>Contacts</Link>
+                                <Link href="/contacts" className="header_nav_link" onClick={closeMenu}>{t('common.nav.contacts')}</Link>
                             </li>
                         
                         </ul>

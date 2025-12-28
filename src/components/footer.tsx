@@ -1,24 +1,13 @@
 // pages/index.tsx
 import React from "react";
-import { useRouter } from "next/router";
+import Link from "next/link";
 import "../assets/css/footer_style.css";
 import FooterLine from "../assets/icons/footerLine";
 import LogoIcon from "../assets/icons/logo";
-import Link from "next/link";
+import useTranslations from "../hooks/useTranslations";
 
 const Home: React.FC = () => {
-    const router = useRouter();;
-    const { locale, asPath } = router;
-  
-    const toggleLanguage = () => {
-      const nextLocale = locale === 'en' ? 'cz' : 'en';
-  
-      router.push(asPath, asPath, { locale: nextLocale });
-    };
-  
-    const label = locale === 'en' ? 'EN' : 'CZ';
-  
-    
+    const { t } = useTranslations();
 
     return (
        <footer className="footer">
@@ -32,12 +21,12 @@ const Home: React.FC = () => {
                 </div>
                
                 <p className="footer_content_text">
-                    © 2025 RM-Software
+                    {t('common.footer.copyright')}
                 </p>
             </div>
-            <a href="/privacy-policy" className="footer_content_link">
-                Ochrana osobních údajů
-            </a>
+            <Link href="/privacy-policy" className="footer_content_link">
+                {t('common.footer.privacy', 'Privacy Policy')}
+            </Link>
         </div>
        </footer>
     );
