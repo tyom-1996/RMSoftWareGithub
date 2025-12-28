@@ -20,6 +20,7 @@ import "swiper/css";
 import "swiper/css/effect-fade";
 import "swiper/css/pagination";
 import ArrowIcon3 from "../assets/icons/arrowIcon3";
+import Link from "next/link";
 
 const Home: React.FC = () => {
     const router = useRouter();
@@ -62,6 +63,7 @@ const Home: React.FC = () => {
     const [servicesStats] = useState([
         {
             id: 1,
+            link: "/Products/seezus",
             image: "/images/services_img1.png",
             title: "AI Video Analytics",
             description:
@@ -69,6 +71,7 @@ const Home: React.FC = () => {
         },
         {
             id: 2,
+            link: "/Products/gugu",
             image: "/images/services_img2.png",
             title: "Retail Growth Engine",
             description:
@@ -76,6 +79,7 @@ const Home: React.FC = () => {
         },
         {
             id: 3,
+            link: "/MobileDevelopment",
             image: "/images/services_img3.png",
             title: "Mobile Development",
             description:
@@ -83,6 +87,7 @@ const Home: React.FC = () => {
         },
         {
             id: 4,
+            link: "/Products/distribox",
             image: "/images/services_img4.png",
             title: "Smart Locker Software",
             description:
@@ -93,6 +98,7 @@ const Home: React.FC = () => {
     const [servicesStats2] = useState([
         {
             id: 1,
+            link: "/Products/seezus",
             image: "/images/services_img5.png",
             title: "Next-Gen AI Video Analytics",
             description:
@@ -100,6 +106,7 @@ const Home: React.FC = () => {
         },
         {
             id: 2,
+            link: "/Products/gugu",
             image: "/images/services_img6.png",
             title: "The CRM Built for Retail",
             description:
@@ -107,6 +114,7 @@ const Home: React.FC = () => {
         },
         {
             id: 3,
+            link: "/Products/distribox",
             image: "/images/services_img7.png",
             title: "Smart Locker Operating System",
             description:
@@ -208,15 +216,15 @@ const Home: React.FC = () => {
                                         <p className="services_section2_stat_description">
                                             {item.description}
                                         </p>
-                                        <button className="services_section2_stat_button">
-                                        Více informací
+                                        <Link href={item.link} className="services_section2_stat_button">
+                                            Více informací
                                             <ArrowIcon3 />
-                                        </button>
+                                        </Link>
                                     </div>
                                 </div>
                             ))}
                         </div>
-                        <a href="#" className="services_section2_button">
+                        <a href="/Products" className="services_section2_button">
                         Podívejte se na vše, co nabízíme
                         </a>
                     </div>
@@ -267,10 +275,10 @@ const Home: React.FC = () => {
                                             <p className="services_section3_stat_description">
                                                 {item.description}
                                             </p>
-                                            <button className="services_section3_stat_button">
+                                            <Link href={item.link} className="services_section3_stat_button">
                                                 Více informací
                                                 <ArrowIcon3 />
-                                            </button>
+                                            </Link>
                                         </div>
                                     </div>
                                 </div>
@@ -282,33 +290,31 @@ const Home: React.FC = () => {
                     <div className="contacts_section_content">
                         <div className="contacts_section_content_item">
                             <div className="contacts_column">
-                                <h3 className="contacts_column_title">RM SOFTWARE</h3>
+                                
                                 <nav aria-label="Defend Insurance Group" className="contacts_nav">
                                     <ul className="contacts_list">
                                         <li className="contacts_item">
-                                            <a href="#" className="contacts_link">O společnosti</a>
+                                            <a href="/AboutUs" className="contacts_column_title2">RM SOFTWARE</a>
                                         </li>
                                         <li className="contacts_item">
-                                            <a href="#" className="contacts_link">Zprávy a novinky</a>
-                                        </li>
-                                        <li className="contacts_item">
-                                            <a href="#" className="contacts_link">Kontakt</a>
+                                            <a href="/Contacts" className="contacts_link">Kontakt</a>
                                         </li>
                                     </ul>
                                 </nav>
                             </div>
                             <div className="contacts_column">
-                                <h3 className="contacts_column_title">PRODUKTY</h3>
+                                <a href="/Products" className="contacts_column_title">PRODUKTY</a>
                                 <nav aria-label="Produkty" className="contacts_nav">
                                     <ul className="contacts_list">
                                         <li className="contacts_item">
-                                            <a href="#" className="contacts_link">Distribox</a>
+                                            <a href="/Products/seezus" className="contacts_link">Seezus</a>
                                         </li>
                                         <li className="contacts_item">
-                                            <a href="#" className="contacts_link">GuGu</a>
+                                            <a href="/Products/gugu" className="contacts_link">GuGu</a>
                                         </li>
+                                      
                                         <li className="contacts_item">
-                                            <a href="#" className="contacts_link">Seezus</a>
+                                            <a href="/Products/distribox" className="contacts_link">Distribox</a>
                                         </li>
                                     </ul>
                                 </nav>
@@ -324,7 +330,7 @@ const Home: React.FC = () => {
                                             <a href="/MobileDevelopment" className="contacts_link">Mobile development</a>
                                         </li>
                                         <li className="contacts_item">
-                                            <a href="/CrmDevelopment" className="contacts_link">CRM development</a>
+                                            <a href="/CRMDevelopment" className="contacts_link">CRM development</a>
                                         </li>
                                     </ul>
                                 </nav>

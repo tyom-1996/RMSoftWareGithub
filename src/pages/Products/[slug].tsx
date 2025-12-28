@@ -1,6 +1,7 @@
-// pages/Products/[id].tsx
+// pages/Products/[slug].tsx
 import React from "react";
 import { useRouter } from "next/router";
+import Head from "next/head";
 import Link from "next/link";
 import Header from "../../components/header";
 import Footer from "../../components/footer";
@@ -26,6 +27,7 @@ import MailIcon from "../../assets/icons/mailIcon";
 const productSingle = [
     {
         id: 1,
+        slug: "seezus",
         title: "SEEZUS",
         top: {
             topTitle: "AI-Powered Security That Understands What's Happening",
@@ -182,9 +184,9 @@ const productSingle = [
                 id: 6,
                 title: "Questions, Answers, and Documentation",
                 steps:[
-                    'We know choosing the right security system isn’t easy.',
-                    'That’s why we’ve prepared clear answers to the most common questions, along with detailed documentation and technical specifications.',
-                    'If you need additional help, our team is ready to assist you.',
+                    "We know choosing the right security system isn't easy.",
+                    "That's why we've prepared clear answers to the most common questions, along with detailed documentation and technical specifications.",
+                    "If you need additional help, our team is ready to assist you.",
                 ]
             },
           
@@ -192,6 +194,7 @@ const productSingle = [
     },
     {
         id: 2,
+        slug: "gugu",
         title: "GuGu",
         top: {
             topTitle: "GuGu — Complete CRM & Field Service Management System",
@@ -244,7 +247,7 @@ const productSingle = [
                     id: 2,
                     icon: HowItWorksIcon2,
                     title: "Plan & Dispatch Work",
-                    description: "Use GuGu’s intuitive dashboard to schedule visits, assign tasks, and organize field teams with full operational visibility.",
+                    description: "Use GuGu's intuitive dashboard to schedule visits, assign tasks, and organize field teams with full operational visibility.",
                 },
                 {   
                     id: 3,
@@ -263,7 +266,7 @@ const productSingle = [
         solution: {
             solutionIcon: SolutionIcon4,
             solutionTitle: "Ready to Simplify Your CRM & Field Operations?",
-            solutionDescription: "Let’s find the GuGu setup that fits your business.",
+            solutionDescription: "Let's find the GuGu setup that fits your business.",
             solutionItems: [
                 {
                     id: 1,
@@ -336,8 +339,8 @@ const productSingle = [
                 id: 5,
                 title: "Questions, Answers, and Documentation",
                 steps:[
-                    'Choosing the right CRM is an important decision.',
-                    'Here you’ll find answers to common questions, detailed documentation, and implementation guidance. Our team is always ready to help if you need more information.',
+                    "Choosing the right CRM is an important decision.",
+                    "Here you'll find answers to common questions, detailed documentation, and implementation guidance. Our team is always ready to help if you need more information.",
                 ]
             },
         
@@ -346,6 +349,7 @@ const productSingle = [
     },
     {
         id: 3,
+        slug: "distribox",
         title: "Distribox",
         top: {
             topTitle: "Distribox — Smart Self-Service Pickup & Delivery Boxes",
@@ -381,7 +385,7 @@ const productSingle = [
         aboutSeezus: {
             aboutTitle: "What Is Distribox Self Box System?",
             aboutDescription1: 'Что показывать во время opening/closing?',
-            aboutDescription2: "Modern API connectivity, remote management, and continuous support give you full control over delivery processes without manual intervention. DISTRIBOX.cz",
+            aboutDescription2: "Modern API connectivity, remote management, and continuous support give you full control over delivery processes without manual intervention. DISTRIBOX.cz",
             aboutDescription: "",
             image: '/images/whatis_img.png',
         },
@@ -398,26 +402,26 @@ const productSingle = [
                     id: 2,
                     icon: HowItWorksIcon2,
                     title: "Integration with Your Systems",
-                    description: "Connect the lockers to your e-commerce platform, CRM, warehouse system, or ERP via API for automated operations. DISTRIBOX.cz",
+                    description: "Connect the lockers to your e-commerce platform, CRM, warehouse system, or ERP via API for automated operations. DISTRIBOX.cz",
                 },
                 {   
                     id: 3,
                     icon: HowItWorksIcon3,
                     title: "Automated Delivery & Pickup",
-                    description: "Couriers place packages into designated compartments, and recipients are notified via SMS or email when items are ready. DISTRIBOX.cz",
+                    description: "Couriers place packages into designated compartments, and recipients are notified via SMS or email when items are ready. DISTRIBOX.cz",
                 },
                 {   
                     id: 4,
                     icon: HowItWorksIcon4,
                     title: "Monitor & Manage",
-                    description: "Box status, usage history, and access logs are available online 24/7 — you stay in control of your delivery ecosystem. DISTRIBOX.cz",
+                    description: "Box status, usage history, and access logs are available online 24/7 — you stay in control of your delivery ecosystem. DISTRIBOX.cz",
                 },
             ]
         },
         solution: {
             solutionIcon: SolutionIcon4,
             solutionTitle: "Ready to Automate Package Delivery & Pickup?",
-            solutionDescription: "Let’s design the perfect Distribox system for your business and customers.",
+            solutionDescription: "Let's design the perfect Distribox system for your business and customers.",
             solutionItems: [
                 {
                     id: 1,
@@ -456,7 +460,7 @@ const productSingle = [
                 title: "USE CASES BLOCK",
                 steps:[
                     `E-Commerce Pickup Stations  <br /> Offer customers fast, contactless order collection any time of day.`,
-                    `Residential & Apartment Delivery <br /> Residents receive secure lockers for personal packages even when they’re not home.`,
+                    `Residential & Apartment Delivery <br /> Residents receive secure lockers for personal packages even when they're not home.`,
                     `Libraries & Public Services <br /> Automated book pickup/drop-off (knihobox) without staff involvement.`,
                     `Retail & Click-and-Collect Points <br /> Customers collect purchases on their schedule, improving convenience and satisfaction.`,
                    
@@ -467,7 +471,7 @@ const productSingle = [
                 id: 3,
                 title: "Smart Locker System Architecture",
                 steps:[
-                    'Each Distribox unit combines robust hardware with intuitive software — from API connectivity to online remote management. Once integrated, your system handles parcel flows automatically, sending notifications, tracking status, and logging activity in real time. '
+                    'Each Distribox unit combines robust hardware with intuitive software — from API connectivity to online remote management. Once integrated, your system handles parcel flows automatically, sending notifications, tracking status, and logging activity in real time. '
                 ]
                 
             },
@@ -475,7 +479,7 @@ const productSingle = [
                 id: 4,
                 title: "Built for Reliability, Backed by Support",
                 steps:[
-                    'Distribox systems are engineered for long-term performance. With a domestic manufacturing base, full service support, and monitoring capabilities, we ensure your lockers stay operational with minimal disruption. ',
+                    'Distribox systems are engineered for long-term performance. With a domestic manufacturing base, full service support, and monitoring capabilities, we ensure your lockers stay operational with minimal disruption. ',
                     
                 ]
             },
@@ -492,17 +496,43 @@ const productSingle = [
     },
 ];
 
+// Helper function to generate SEO-friendly meta tags
+const getSEOMetaTags = (product: typeof productSingle[0], baseUrl: string = 'https://rm-software.cz') => {
+    const title = `${product.top.topTitle} | RM Software`;
+    const description = product.top.topDescription;
+    const url = `${baseUrl}/Products/${product.slug}`;
+    // Use the first advantage image or a default product image for OG
+    const ogImage = product.advantages && product.advantages.length > 0 
+        ? `${baseUrl}${product.advantages[0].img}`
+        : `${baseUrl}/images/product_img${product.id}.jpeg`;
+    
+    return {
+        title,
+        description,
+        url,
+        ogTitle: product.top.topTitle,
+        ogDescription: description,
+        ogUrl: url,
+        ogType: 'website',
+        ogImage,
+    };
+};
+
 const ProductSingle: React.FC = () => {
     const router = useRouter();
-    const { id } = router.query;
+    const { slug } = router.query;
 
-    // Find the product by ID (handle string conversion)
-    const product = productSingle.find((p) => p.id === Number(id));
+    // Find the product by slug
+    const product = productSingle.find((p) => p.slug === slug);
 
     // If product not found, show error or redirect
     if (!product) {
         return (
             <main className="main_page">
+                <Head>
+                    <title>Product Not Found | RM Software</title>
+                    <meta name="robots" content="noindex, nofollow" />
+                </Head>
                 <Header />
                 <div style={{ padding: "100px 20px", textAlign: "center" }}>
                     <h1>Product not found</h1>
@@ -515,16 +545,87 @@ const ProductSingle: React.FC = () => {
         );
     }
 
+    const seoMeta = getSEOMetaTags(product);
+
     return (
         <main className="main_page">
+            <Head>
+                <title>{seoMeta.title}</title>
+                <meta name="description" content={seoMeta.description} />
+                <meta name="keywords" content={`${product.title}, ${product.top.topTitle}, RM Software, security, CRM, logistics`} />
+                <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+                <meta name="author" content="RM Software" />
+                <meta name="language" content="Czech, English" />
+                
+                {/* Open Graph / Facebook */}
+                <meta property="og:type" content={seoMeta.ogType} />
+                <meta property="og:url" content={seoMeta.ogUrl} />
+                <meta property="og:title" content={seoMeta.ogTitle} />
+                <meta property="og:description" content={seoMeta.ogDescription} />
+                <meta property="og:image" content={seoMeta.ogImage} />
+                <meta property="og:image:width" content="1200" />
+                <meta property="og:image:height" content="630" />
+                <meta property="og:site_name" content="RM Software" />
+                <meta property="og:locale" content="cs_CZ" />
+                <meta property="og:locale:alternate" content="en_US" />
+                
+                {/* Twitter */}
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta name="twitter:url" content={seoMeta.url} />
+                <meta name="twitter:title" content={seoMeta.ogTitle} />
+                <meta name="twitter:description" content={seoMeta.ogDescription} />
+                <meta name="twitter:image" content={seoMeta.ogImage} />
+                
+                {/* Canonical URL */}
+                <link rel="canonical" href={seoMeta.url} />
+                
+                {/* Alternate language versions */}
+                <link rel="alternate" hrefLang="cs" href={seoMeta.url} />
+                <link rel="alternate" hrefLang="en" href={seoMeta.url} />
+                <link rel="alternate" hrefLang="x-default" href={seoMeta.url} />
+                
+                {/* Structured Data (JSON-LD) */}
+                <script
+                    type="application/ld+json"
+                    dangerouslySetInnerHTML={{
+                        __html: JSON.stringify({
+                            "@context": "https://schema.org",
+                            "@type": "Product",
+                            "name": product.title,
+                            "description": seoMeta.description,
+                            "url": seoMeta.url,
+                            "image": seoMeta.ogImage,
+                            "brand": {
+                                "@type": "Brand",
+                                "name": "RM Software"
+                            },
+                            "manufacturer": {
+                                "@type": "Organization",
+                                "name": "RM Software"
+                            },
+                            "offers": {
+                                "@type": "Offer",
+                                "availability": "https://schema.org/InStock",
+                                "priceCurrency": "CZK",
+                                "url": seoMeta.url
+                            },
+                            "aggregateRating": {
+                                "@type": "AggregateRating",
+                                "ratingValue": "5",
+                                "reviewCount": "1"
+                            }
+                        })
+                    }}
+                />
+            </Head>
             <Header />
             <div className="top_section_header">
                 <div>
                     <HomeIcon />
                     <ArrowIcon />
-                    <span className="top_section_header_text">Produkty</span>
+                    <Link href="/Products" className="top_section_header_text">Products</Link>
                     <ArrowIcon />
-                    <span className="top_section_header_text">Gap</span>
+                    <span className="top_section_header_text">{product.title}</span>
                 </div>
             </div>
             <section className="product_single_section">
@@ -700,33 +801,31 @@ const ProductSingle: React.FC = () => {
                     <div className="contacts_section_content">
                         <div className="contacts_section_content_item">
                             <div className="contacts_column">
-                                <h3 className="contacts_column_title">RM SOFTWARE</h3>
+                                
                                 <nav aria-label="Defend Insurance Group" className="contacts_nav">
                                     <ul className="contacts_list">
                                         <li className="contacts_item">
-                                            <a href="#" className="contacts_link">O společnosti</a>
+                                            <a href="/AboutUs" className="contacts_column_title2">RM SOFTWARE</a>
                                         </li>
+                                    
                                         <li className="contacts_item">
-                                            <a href="#" className="contacts_link">Zprávy a novinky</a>
-                                        </li>
-                                        <li className="contacts_item">
-                                            <a href="#" className="contacts_link">Kontakt</a>
+                                            <a href="/Contacts" className="contacts_link">Kontakt</a>
                                         </li>
                                     </ul>
                                 </nav>
                             </div>
                             <div className="contacts_column">
-                                <h3 className="contacts_column_title">PRODUKTY</h3>
+                                <a href="/Products" className="contacts_column_title">PRODUKTY</a>
                                 <nav aria-label="Produkty" className="contacts_nav">
                                     <ul className="contacts_list">
                                         <li className="contacts_item">
-                                            <a href="#" className="contacts_link">Distribox</a>
+                                            <a href="/Products/distribox" className="contacts_link">Distribox</a>
                                         </li>
                                         <li className="contacts_item">
-                                            <a href="#" className="contacts_link">GuGu</a>
+                                            <a href="/Products/gugu" className="contacts_link">GuGu</a>
                                         </li>
                                         <li className="contacts_item">
-                                            <a href="#" className="contacts_link">Seezus</a>
+                                            <a href="/Products/seezus" className="contacts_link">Seezus</a>
                                         </li>
                                     </ul>
                                 </nav>
@@ -742,7 +841,7 @@ const ProductSingle: React.FC = () => {
                                             <a href="/MobileDevelopment" className="contacts_link">Mobile development</a>
                                         </li>
                                         <li className="contacts_item">
-                                            <a href="/CrmDevelopment" className="contacts_link">CRM development</a>
+                                            <a href="/CRMDevelopment" className="contacts_link">CRM development</a>
                                         </li>
                                     </ul>
                                 </nav>

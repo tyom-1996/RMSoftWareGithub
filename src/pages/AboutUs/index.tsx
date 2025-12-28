@@ -88,7 +88,7 @@ const AboutUs: React.FC = () => {
                         <div>
                             <HomeIcon />
                             <ArrowIcon />
-                            <span className="top_section_header_text">O nás</span>
+                            <span className="top_section_header_text">About Us</span>
                         </div>
                         
                     </div>
@@ -207,33 +207,32 @@ const AboutUs: React.FC = () => {
                     <div className="contacts_section_content">
                         <div className="contacts_section_content_item">
                             <div className="contacts_column">
-                                <h3 className="contacts_column_title">RM SOFTWARE</h3>
+                                
                                 <nav aria-label="Defend Insurance Group" className="contacts_nav">
                                     <ul className="contacts_list">
                                         <li className="contacts_item">
-                                            <a href="#" className="contacts_link">O společnosti</a>
+                                            <a className="contacts_column_title2">RM SOFTWARE</a>
                                         </li>
+                                    
                                         <li className="contacts_item">
-                                            <a href="#" className="contacts_link">Zprávy a novinky</a>
-                                        </li>
-                                        <li className="contacts_item">
-                                            <a href="#" className="contacts_link">Kontakt</a>
+                                            <a href="/Contacts" className="contacts_link">Kontakt</a>
                                         </li>
                                     </ul>
                                 </nav>
                             </div>
                             <div className="contacts_column">
-                                <h3 className="contacts_column_title">PRODUKTY</h3>
+                                <a href="/Products" className="contacts_column_title">PRODUKTY</a>
                                 <nav aria-label="Produkty" className="contacts_nav">
                                     <ul className="contacts_list">
                                         <li className="contacts_item">
-                                            <a href="#" className="contacts_link">Distribox</a>
+                                            <a href="/Products/seezus" className="contacts_link">Seezus</a>
                                         </li>
                                         <li className="contacts_item">
-                                            <a href="#" className="contacts_link">GuGu</a>
+                                            <a href="/Products/gugu" className="contacts_link">GuGu</a>
                                         </li>
+                                      
                                         <li className="contacts_item">
-                                            <a href="#" className="contacts_link">Seezus</a>
+                                            <a href="/Products/distribox" className="contacts_link">Distribox</a>
                                         </li>
                                     </ul>
                                 </nav>
@@ -249,7 +248,7 @@ const AboutUs: React.FC = () => {
                                             <a href="/MobileDevelopment" className="contacts_link">Mobile development</a>
                                         </li>
                                         <li className="contacts_item">
-                                            <a href="/CrmDevelopment" className="contacts_link">CRM development</a>
+                                            <a href="/CRMDevelopment" className="contacts_link">CRM development</a>
                                         </li>
                                     </ul>
                                 </nav>
@@ -278,7 +277,7 @@ const AboutUs: React.FC = () => {
                         </div>
                         
                     </div>
-                </section>
+            </section>
             </main>
             <Footer />
         </main>

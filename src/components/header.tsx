@@ -118,7 +118,7 @@ const Home: React.FC = () => {
                         onClick={() => setIsLanguageDropdownOpen(!isLanguageDropdownOpen)}
                         className="language-button"
                     >
-                        <LanguageIcon />
+                        {/* <LanguageIcon /> */}
                         <CurrentFlagIcon />
                         <span>{currentLabel}</span>
                     </button>
