@@ -19,18 +19,18 @@ const nextConfig = {
       },
       // Redirect old ID-based product URLs to SEO-friendly slug URLs
       {
-        source: '/Products/1',
-        destination: '/Products/seezus',
+        source: '/products/1',
+        destination: '/products/seezus',
         permanent: true, // 301 redirect for SEO
       },
       {
-        source: '/Products/2',
-        destination: '/Products/gugu',
+        source: '/products/2',
+        destination: '/products/gugu',
         permanent: true, // 301 redirect for SEO
       },
       {
-        source: '/Products/3',
-        destination: '/Products/distribox',
+        source: '/products/3',
+        destination: '/products/distribox',
         permanent: true, // 301 redirect for SEO
       },
     ];
