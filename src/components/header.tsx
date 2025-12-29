@@ -16,11 +16,29 @@ const Home: React.FC = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const [isLanguageDropdownOpen, setIsLanguageDropdownOpen] = useState(false);
   
+    const normalizePath = (path: string) => {
+      const withoutLocale = path.replace(/^\/(en|cz)(?=\/|$)/, '') || '/';
+      if (withoutLocale !== '/' && withoutLocale.endsWith('/')) {
+        return withoutLocale.slice(0, -1);
+      }
+      return withoutLocale;
+    };
+
+    const currentPath = normalizePath(asPath.split('?')[0]);
+
+    const isActive = (href: string) => {
+      const target = normalizePath(href);
+      return currentPath === target || currentPath.startsWith(`${target}/`);
+    };
+
     const changeLanguage = (newLocale: string) => {
       // Strip any existing locale prefix from the current path
       const cleanPath = asPath.replace(/^\/(en|cz)(?=\/|$)/, '') || '/';
       // Always include the selected locale in the URL so CZ is visible too
       const newPath = `/${newLocale}${cleanPath === '/' ? '' : cleanPath}`;
+      if (typeof window !== 'undefined') {
+        window.localStorage.setItem('selectedLocale', newLocale);
+      }
       router.push(newPath, newPath, { locale: newLocale, scroll: false });
       setIsLanguageDropdownOpen(false);
     };
@@ -105,13 +123,31 @@ const Home: React.FC = () => {
                     <nav className={`header_nav ${isMenuOpen ? 'open' : ''}`}>
                         <ul className="header_nav_list">
                             <li className="header_nav_item">
-                                <Link href="/about-us" className={`header_nav_link ${router.pathname === '/' ? 'active' : ''}`} onClick={closeMenu}>{t('common.nav.about')}</Link>
+                                <Link
+                                    href="/about-us"
+                                    className={`header_nav_link ${isActive('/about-us') ? 'active' : ''}`}
+                                    onClick={closeMenu}
+                                >
+                                    {t('common.nav.about')}
+                                </Link>
                             </li>
                             <li className="header_nav_item">
-                                <Link href="/products" className="header_nav_link" onClick={closeMenu}>{t('common.nav.products')}</Link>
+                                <Link
+                                    href="/products"
+                                    className={`header_nav_link ${isActive('/products') ? 'active' : ''}`}
+                                    onClick={closeMenu}
+                                >
+                                    {t('common.nav.products')}
+                                </Link>
                             </li>
                             <li className="header_nav_item">
-                                <Link href="/contacts" className="header_nav_link" onClick={closeMenu}>{t('common.nav.contacts')}</Link>
+                                <Link
+                                    href="/contacts"
+                                    className={`header_nav_link ${isActive('/contacts') ? 'active' : ''}`}
+                                    onClick={closeMenu}
+                                >
+                                    {t('common.nav.contacts')}
+                                </Link>
                             </li>
                         
                         </ul>

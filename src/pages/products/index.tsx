@@ -21,7 +21,7 @@ const Products: React.FC = () => {
     }>;
 
     const heroParagraphs = t("productsPage.hero.paragraphs", []) as string[];
-    
+
 
 
     return (
@@ -82,9 +82,9 @@ const Products: React.FC = () => {
                                         <p className="products2_wrapper_item_description">
                                             {item.description}
                                         </p>
-                                        <Link href={`/products/${item.slug}`} className="products2_wrapper_item_button">
+                                        <a href={`/products/${item.slug}`} className="products2_wrapper_item_button">
                                             {t('productsPage.moreInfo')}
-                                        </Link>
+                                        </a>
                                        
                                     </div>
                                  

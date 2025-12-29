@@ -24,7 +24,7 @@
       "usefulTitle": "Užitečné",
       "usefulLinks": [
         { "href": "/ai-development", "label": "AI vývoj" },
-        { "href": "/mobile-development", "label": "Vývoj mobilních aplikací" },
+        { "href": "/mobile-development", "label": "Mobilní vývoj" },
         { "href": "/crm-development", "label": "Vývoj CRM" }
       ]
     },
@@ -144,7 +144,32 @@
         "label": "Transakcí denně",
         "description": "Naše systémy denně zpracují přes milion transakcí díky robustní architektuře a moderním technologiím se stabilitou a minimálními prostoji."
       }
+    ],
+    "servicesStats3": [
+      {
+        "id": 1,
+        "link": "/products/seezus",
+        "image": "/images/services_img5.png",
+        "title": "AI videoanalytika nové generace",
+        "description": "Proměňte své dohledové kamery v aktivní bezpečnostní strážce.Seezus využívá pokročilou umělou inteligenci k analýze videozáznamů v reálném čase a okamžitě detekuje anomálie, neoprávněný přístup a podezřelé chování. Proaktivně upozorňuje váš bezpečnostní tým a pomáhá předcházet incidentům dříve, než k nim dojde — místo pouhého zaznamenávání událostí."
+      },
+      {
+        "id": 2,
+        "link": "/products/gugu",
+        "image": "/images/services_img6.png",
+        "title": "CRM navržené pro maloobchod",
+        "description": "Přestaňte používat obecné nástroje pro svůj maloobchodní byznys.Gugu CRM je navrženo tak, aby zvládalo specifickou dynamiku maloobchodního prodeje a řízení vztahů se zákazníky. Centralizuje data o zákaznících napříč všemi kanály, zefektivňuje prodejní procesy a poskytuje využitelné přehledy, které vám pomohou personalizovat nabídky a proměnit jednorázové nakupující ve věrné, vracející se zákazníky."
+      },
+      {
+        "id": 3,
+        "link": "/products/distribox",
+        "image": "/images/services_img7.png",
+        "title": "Operační systém pro chytré skříňky",
+        "description": "Automatizujte logistiku poslední míle pomocí kompletního softwarového řešení pro balíkové boxy.Distribox řídí celý proces samoobslužného vyzvednutí — od přidělování schránek až po generování bezpečných QR kódů pro uživatele. Nabídněte svým zákazníkům plynulý, bezkontaktní způsob vyzvednutí 24/7 a zároveň výrazně snižte náklady na doručení a kurýrní služby."
+      }
     ]
+
+
   },
   "about": {
     "breadcrumb": "O nás",
@@ -244,7 +269,7 @@
     "moreInfo": "Více informací"
   },
   "aiDevelopment": {
-    "breadcrumb": "AI development",
+    "breadcrumb": "AI vývoj",
     "heroTitle": "Zakázkový vývoj a výzkum AI",
     "intro": [
       "Od ladění existujících modelů po tvorbu vlastních AI systémů — testovaných, validovaných a nasazených v reálných podmínkách.",
@@ -289,7 +314,7 @@
     ]
   },
   "mobileDevelopment": {
-    "breadcrumb": "Mobile development",
+    "breadcrumb": "Mobilní vývoj",
     "heroTitle": "Vývoj mobilních aplikací na míru",
     "intro": [
       "Nativní i cross-platform aplikace postavené na výkon, škálování a dlouhodobou podporu.",
