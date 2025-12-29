@@ -1,5 +1,6 @@
 // pages/index.tsx
 import React, { useState } from "react";
+import { useRouter } from "next/router";
 import Header from "../../components/header";
 import HomeIcon from "../../assets/icons/homeIcon";
 import ArrowIcon from "../../assets/icons/arrowIcon";
@@ -11,9 +12,18 @@ import DividerIcon from "../../assets/icons/dividerIcon";
 import ContactsArrowIcon from "../../assets/icons/contactsArrowIcon";
 import useTranslations from "../../hooks/useTranslations";
 import ContactSection from "../../components/ContactSection";
+import SeoHead from "../../components/SeoHead";
 
 const Contacts: React.FC = () => {
     const { t } = useTranslations();
+    const router = useRouter();
+    const locale = (router.locale || router.defaultLocale || "cz").split("-")[0] === "en" ? "en" : "cz";
+    const defaultLocale = router.defaultLocale || "cz";
+    const metaTitle = locale === "en" ? "Contacts — RM Software" : "Kontakty — RM Software";
+    const metaDescription =
+        locale === "en"
+            ? "Reach RM Software: reception +420 296 330 311, info@rm-software.cz, Prague office."
+            : "Spojte se s RM Software: recepce +420 296 330 311, info@rm-software.cz, kancelář Praha.";
     const [isHeadOfficeOpen, setIsHeadOfficeOpen] = useState(true);
     const contactText = t("contactsPage", {
         breadcrumb: "Contacts",
@@ -37,6 +47,14 @@ const Contacts: React.FC = () => {
 
     return (
         <main className="main_page">
+            <SeoHead
+                title={metaTitle}
+                description={metaDescription}
+                canonicalPath="/contacts"
+                locale={locale}
+                defaultLocale={defaultLocale}
+                alternateLocales={["en", "cz"]}
+            />
             <Header />
             <main>
                 <section className="top_section_contacts">
