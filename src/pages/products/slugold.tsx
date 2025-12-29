@@ -891,16 +891,27 @@ const productSingle = {
   ],
 } as const;
 
-const ProductSinglePage: React.FC = () => {
+type ProductSinglePageProps = {
+  slugOverride?: string;
+};
+
+const ProductSinglePage: React.FC<ProductSinglePageProps> = ({ slugOverride }) => {
   const router = useRouter();
   const { slug } = router.query;
-  const locale = router.locale === "en" ? "en" : "cz";
+  const pathLocaleMatch = router.asPath.match(/^\/(en|cz)(?=\/|$)/);
+  const pathLocale = pathLocaleMatch?.[1];
+  const currentLocale = router.locale || pathLocale || router.defaultLocale || "cz";
+  const normalizedLocale = currentLocale.split("-")[0]; // e.g. en-US → en
+  const locale = normalizedLocale === "en" ? "en" : "cz";
 
   const products = productSingle[locale];
-  // Wait for the router to resolve the dynamic slug to avoid rendering with an unresolved placeholder
-  if (!router.isReady || typeof slug !== "string") return null;
+  // Prefer override when provided (for static pages); otherwise use router slug
+  const routeSlug = slugOverride ?? slug;
+  const resolvedSlug = Array.isArray(routeSlug) ? routeSlug[0] : routeSlug;
+  if (!slugOverride && !router.isReady) return null;
+  if (typeof resolvedSlug !== "string") return null;
 
-  const product = products.find((p) => p.slug === slug);
+  const product = products.find((p) => p.slug === resolvedSlug);
 
   if (!product) return null;
 

@@ -1,5 +1,6 @@
 // pages/index.tsx
 import React from "react";
+import { useRouter } from "next/router";
 import Header from "../components/header";
 import ArrowIcon2 from "../assets/icons/arrowIcon2";
 import "../assets/css/home_style.css";
@@ -16,9 +17,21 @@ import ArrowIcon3 from "../assets/icons/arrowIcon3";
 import Link from "next/link";
 import useTranslations from "../hooks/useTranslations";
 import ContactSection from "../components/ContactSection";
+import SeoHead from "../components/SeoHead";
 
 const Home: React.FC = () => {
     const { t } = useTranslations();
+    const router = useRouter();
+    const currentLocale = (router.locale || router.defaultLocale || "cz").split("-")[0] === "en" ? "en" : "cz";
+    const defaultLocale = router.defaultLocale || "cz";
+    const metaTitle =
+        currentLocale === "en"
+            ? "RM Software — AI, CRM, Mobile & Smart Locker Solutions"
+            : "RM Software — AI, CRM, mobilní a chytrá řešení";
+    const metaDescription =
+        currentLocale === "en"
+            ? "AI video analytics (Seezus), CRM & field service (GuGu), smart lockers (Distribox), mobile and custom development."
+            : "AI video analytika (Seezus), CRM a terén (GuGu), chytré boxy (Distribox), mobilní a zakázkový vývoj.";
 
     const productsStats = t("home.productsStats", []) as Array<{
         id: number;
@@ -55,6 +68,14 @@ const Home: React.FC = () => {
 
     return (
         <main className="main_page">
+            <SeoHead
+                title={metaTitle}
+                description={metaDescription}
+                canonicalPath="/"
+                locale={currentLocale}
+                defaultLocale={defaultLocale}
+                alternateLocales={["en", "cz"]}
+            />
             <Header />
             <main>
                 <section className="top_section2">

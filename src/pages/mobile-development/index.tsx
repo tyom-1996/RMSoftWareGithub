@@ -1,5 +1,6 @@
 // pages/Products/[id].tsx
 import React from "react";
+import { useRouter } from "next/router";
 import Header from "../../components/header";
 import Footer from "../../components/footer";
 import HomeIcon from "../../assets/icons/homeIcon";
@@ -17,9 +18,18 @@ import DividerIcon from "../../assets/icons/dividerIcon";
 import DividerIcon2 from "../../assets/icons/dividerIcon2";
 import ContactSection from "../../components/ContactSection";
 import useTranslations from "../../hooks/useTranslations";
+import SeoHead from "../../components/SeoHead";
 
 const MobileDevelopment: React.FC = () => {
     const { t } = useTranslations();
+    const router = useRouter();
+    const locale = (router.locale || router.defaultLocale || "cz").split("-")[0] === "en" ? "en" : "cz";
+    const defaultLocale = router.defaultLocale || "cz";
+    const metaTitle = locale === "en" ? "Mobile Development — RM Software" : "Mobilní vývoj — RM Software";
+    const metaDescription =
+        locale === "en"
+            ? "iOS and Android development, offline-first apps, integrations, and UX by RM Software."
+            : "Vývoj iOS a Android aplikací, offline-first, integrace a UX od RM Software.";
 
     const advantages = t("mobileDevelopment.advantages", []) as Array<{
         id: number;
@@ -59,6 +69,14 @@ const MobileDevelopment: React.FC = () => {
 
     return (
         <main className="main_page" id="mobile_development_page">
+            <SeoHead
+                title={metaTitle}
+                description={metaDescription}
+                canonicalPath="/mobile-development"
+                locale={locale}
+                defaultLocale={defaultLocale}
+                alternateLocales={["en", "cz"]}
+            />
             <Header />
             <div className="top_section_header">
                 <div>

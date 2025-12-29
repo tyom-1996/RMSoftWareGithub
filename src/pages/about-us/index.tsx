@@ -1,5 +1,6 @@
 // pages/index.tsx
 import React from "react";
+import { useRouter } from "next/router";
 import Header from "../../components/header";
 import HomeIcon from "../../assets/icons/homeIcon";
 import ArrowIcon from "../../assets/icons/arrowIcon";
@@ -11,9 +12,18 @@ import Comma1Icon from "../../assets/icons/comma1";
 import Comma2Icon from "../../assets/icons/comma2";
 import useTranslations from "../../hooks/useTranslations";
 import ContactSection from "../../components/ContactSection";
+import SeoHead from "../../components/SeoHead";
 
 const AboutUs: React.FC = () => {
     const { t } = useTranslations();
+    const router = useRouter();
+    const locale = (router.locale || router.defaultLocale || "cz").split("-")[0] === "en" ? "en" : "cz";
+    const defaultLocale = router.defaultLocale || "cz";
+    const metaTitle = locale === "en" ? "About Us — RM Software" : "O nás — RM Software";
+    const metaDescription =
+        locale === "en"
+            ? "RM Software builds AI video analytics, CRM & field service tools, smart locker software, and custom development."
+            : "RM Software vyvíjí AI video analytiku, CRM a terénní nástroje, software pro chytré boxy a zakázkový vývoj.";
 
     const productsStats = t("home.productsStats", []) as Array<{
         id: number;
@@ -34,6 +44,14 @@ const AboutUs: React.FC = () => {
 
     return (
         <main className="main_page">
+            <SeoHead
+                title={metaTitle}
+                description={metaDescription}
+                canonicalPath="/about-us"
+                locale={locale}
+                defaultLocale={defaultLocale}
+                alternateLocales={["en", "cz"]}
+            />
             <Header />
             <main>
                 <section className="top_section">

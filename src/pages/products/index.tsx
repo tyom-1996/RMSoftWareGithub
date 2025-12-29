@@ -1,6 +1,6 @@
 // pages/index.tsx
 import React from "react";
-import Link from "next/link";
+import { useRouter } from "next/router";
 import Header from "../../components/header";
 import HomeIcon from "../../assets/icons/homeIcon";
 import ArrowIcon from "../../assets/icons/arrowIcon";
@@ -8,9 +8,28 @@ import "../../assets/css/products.css";
 import Footer from "../../components/footer";
 import useTranslations from "../../hooks/useTranslations";
 import ContactSection from "../../components/ContactSection";
+import SeoHead from "../../components/SeoHead";
 
 const Products: React.FC = () => {
     const { t } = useTranslations();
+    const router = useRouter();
+    const slugToPath: Record<string, string> = {
+        seezus: "/products/seezus",
+        gugu: "/products/gugu",
+        distribox: "/products/distribox",
+    };
+    const pathLocaleMatch = router.asPath.match(/^\/(en|cz)(?=\/|$)/);
+    const pathLocale = pathLocaleMatch?.[1];
+    const currentLocale = router.locale || pathLocale || router.defaultLocale || "cz";
+    const normalizedLocale = currentLocale.split("-")[0];
+    const locale = normalizedLocale === "en" ? "en" : "cz";
+    const defaultLocale = router.defaultLocale || "cz";
+    const metaTitle =
+        locale === "en" ? "Products — RM Software" : "Produkty — RM Software";
+    const metaDescription =
+        locale === "en"
+            ? "Explore Seezus AI security, GuGu CRM & field service, and Distribox smart lockers."
+            : "Prohlédněte si Seezus AI bezpečnost, GuGu CRM a terén, a chytré boxy Distribox.";
 
     const products = t("productsPage.cards", []) as Array<{
         id: number;
@@ -26,6 +45,14 @@ const Products: React.FC = () => {
 
     return (
         <main className="main_page">
+            <SeoHead
+                title={metaTitle}
+                description={metaDescription}
+                canonicalPath="/products"
+                locale={locale}
+                defaultLocale={defaultLocale}
+                alternateLocales={["en", "cz"]}
+            />
             <Header />
             <main>
                 <section className="top_section2">
@@ -82,9 +109,16 @@ const Products: React.FC = () => {
                                         <p className="products2_wrapper_item_description">
                                             {item.description}
                                         </p>
-                                        <a href={`/products/${item.slug}`} className="products2_wrapper_item_button">
-                                            {t('productsPage.moreInfo')}
-                                        </a>
+                                        {(() => {
+                                            const basePath = slugToPath[item.slug] || `/products/${item.slug}`;
+                                            const href =
+                                                locale === defaultLocale ? basePath : `/${locale}${basePath}`;
+                                            return (
+                                                <a href={href} className="products2_wrapper_item_button">
+                                                    {t('productsPage.moreInfo')}
+                                                </a>
+                                            );
+                                        })()}
                                        
                                     </div>
                                  
