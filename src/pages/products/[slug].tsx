@@ -575,7 +575,7 @@ const productSingle = {
         },
         {
           id: 2,
-          title: "USE CASES",
+          title: "Příklady použití",
           steps: [
             "Domácí bezpečnost",
             "Zabrání vloupání, detekuje narušitele a ignoruje pohyb mazlíčků či stromů.",
@@ -734,7 +734,7 @@ const productSingle = {
         },
         {
           id: 2,
-          title: "Use-cases",
+          title: "Příklady použití",
           steps: [
             "Servisní a údržbové firmy",
             "Terénní technici",
@@ -868,7 +868,7 @@ const productSingle = {
         },
         {
           id: 2,
-          title: "Use-cases",
+          title: "Příklady použití",
           steps: [
             "E-commerce výdej",
             "Rezidenční doručení",
@@ -897,11 +897,15 @@ const ProductSinglePage: React.FC = () => {
   const locale = router.locale === "en" ? "en" : "cz";
 
   const products = productSingle[locale];
+  // Wait for the router to resolve the dynamic slug to avoid rendering with an unresolved placeholder
+  if (!router.isReady || typeof slug !== "string") return null;
+
   const product = products.find((p) => p.slug === slug);
 
   if (!product) return null;
 
   const { top, advantages, aboutSeezus, howItWorks, solution, whatMakesSeezusSmart } = product;
+  const topFullDescription2 = (top as { topFullDescription2?: string }).topFullDescription2;
 
   return (
     <main className="main_page">
@@ -928,8 +932,8 @@ const ProductSinglePage: React.FC = () => {
               {top.topFullDescription && (
                 <p className="product_single_description_text">{top.topFullDescription}</p>
               )}
-              {top.topFullDescription2 && (
-                <p className="product_single_description_text">{top.topFullDescription2}</p>
+              {topFullDescription2 && (
+                <p className="product_single_description_text">{topFullDescription2}</p>
               )}
             </div>
           </div>

@@ -11,7 +11,7 @@ import useTranslations from "../hooks/useTranslations";
 
 const Home: React.FC = () => {
     const router = useRouter();;
-    const { locale, asPath } = router;
+    const { locale, asPath, query } = router;
     const { t } = useTranslations();
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const [isLanguageDropdownOpen, setIsLanguageDropdownOpen] = useState(false);
@@ -34,8 +34,20 @@ const Home: React.FC = () => {
     const changeLanguage = (newLocale: string) => {
       // Strip any existing locale prefix from the current path
       const cleanPath = asPath.replace(/^\/(en|cz)(?=\/|$)/, '') || '/';
+
+      // When on a dynamic product route, ensure the slug is interpolated
+      const resolveDynamicSegments = (path: string) => {
+        if (!path.includes('[slug]')) return path;
+        const slugParam = query.slug;
+        const slugValue = Array.isArray(slugParam) ? slugParam[0] : slugParam;
+        return slugValue ? path.replace('[slug]', slugValue) : null;
+      };
+
+      const resolvedPath = resolveDynamicSegments(cleanPath);
+      if (!resolvedPath) return; // Avoid pushing unresolved dynamic paths
+
       // Always include the selected locale in the URL so CZ is visible too
-      const newPath = `/${newLocale}${cleanPath === '/' ? '' : cleanPath}`;
+      const newPath = `/${newLocale}${resolvedPath === '/' ? '' : resolvedPath}`;
       if (typeof window !== 'undefined') {
         window.localStorage.setItem('selectedLocale', newLocale);
       }

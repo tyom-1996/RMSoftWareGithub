@@ -310,7 +310,7 @@
     },
     "whatMakes": [
       { "id": 1, "title": "Proč s námi", "steps": ["Hluboká expertiza v AI inženýrství", "Zkušenosti s produkčními AI systémy", "Umíme ladit i stavět modely od nuly", "Důraz na testování, validaci a spolehlivost", "Transparentní proces a měřitelné výsledky"] },
-      { "id": 2, "title": "Use-cases", "steps": ["Computer vision a video analytika", "Prediktivní analytika a forecasty", "Inteligentní automatizace", "Vlastní AI asistenti a rozhodovací systémy", "Oborově specifické AI řešení"] }
+      { "id": 2, "title": "Případy použití", "steps": ["Computer vision a video analytika", "Prediktivní analytika a forecasty", "Inteligentní automatizace", "Vlastní AI asistenti a rozhodovací systémy", "Oborově specifické AI řešení"] }
     ]
   },
   "mobileDevelopment": {
@@ -364,7 +364,7 @@
           "Soulad s požadavky App Store a Google Play",
           "Dlouhodobá údržba a rozvoj",
           "Technická podpora a monitoring",
-          "Use-cases",
+          "Případy použití",
           "Mobilní CRM aplikace",
           "Business a enterprise nástroje",
           "Zákaznické portály a servisní appky",
