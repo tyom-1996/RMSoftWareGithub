@@ -74,3 +74,4 @@ const SeoHead: React.FC<SeoHeadProps> = ({
 
 export default SeoHead;
 
+

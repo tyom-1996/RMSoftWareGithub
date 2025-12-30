@@ -1,6 +1,7 @@
 // pages/index.tsx
 import React from "react";
 import { useRouter } from "next/router";
+import Link from "next/link";
 import Header from "../../components/header";
 import HomeIcon from "../../assets/icons/homeIcon";
 import ArrowIcon from "../../assets/icons/arrowIcon";
@@ -111,12 +112,14 @@ const Products: React.FC = () => {
                                         </p>
                                         {(() => {
                                             const basePath = slugToPath[item.slug] || `/products/${item.slug}`;
-                                            const href =
-                                                locale === defaultLocale ? basePath : `/${locale}${basePath}`;
                                             return (
-                                                <a href={href} className="products2_wrapper_item_button">
+                                                <Link
+                                                    href={basePath}
+                                                    locale={locale}
+                                                    className="products2_wrapper_item_button"
+                                                >
                                                     {t('productsPage.moreInfo')}
-                                                </a>
+                                                </Link>
                                             );
                                         })()}
                                        

@@ -142,9 +142,9 @@ const Home: React.FC = () => {
                                 </div>
                             ))}
                         </div>
-                        <a href="/products" className="services_section2_button">
+                        <Link href="/products" className="services_section2_button">
                         {t('home.viewAll')}
-                        </a>
+                        </Link>
                     </div>
                 </section>
                 <section className="products_section">

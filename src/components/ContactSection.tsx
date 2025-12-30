@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import LineIcon3 from "../assets/icons/lineIcon3";
 import PhoneIcon from "../assets/icons/phoneIcon";
 import MailIcon from "../assets/icons/mailIcon";
@@ -34,25 +35,25 @@ const ContactSection: React.FC = () => {
                             <ul className="contacts_list">
                                 {contactColumns.companyLinks?.map((link: any) => (
                                     <li className="contacts_item" key={link.href}>
-                                        <a href={link.href} className="contacts_link">
+                                        <Link href={link.href} className="contacts_link">
                                             {link.label}
-                                        </a>
+                                        </Link>
                                     </li>
                                 ))}
                             </ul>
                         </nav>
                     </div>
                     <div className="contacts_column">
-                        <a href="/products" className="contacts_column_title">
+                        <Link href="/products" className="contacts_column_title">
                             {contactColumns.productsTitle}
-                        </a>
+                        </Link>
                         <nav aria-label={contactColumns.productsTitle} className="contacts_nav">
                             <ul className="contacts_list">
                                 {contactColumns.productsLinks?.map((link: any) => (
                                     <li className="contacts_item" key={link.href}>
-                                        <a href={link.href} className="contacts_link">
+                                        <Link href={link.href} className="contacts_link">
                                             {link.label}
-                                        </a>
+                                        </Link>
                                     </li>
                                 ))}
                             </ul>
@@ -64,9 +65,9 @@ const ContactSection: React.FC = () => {
                             <ul className="contacts_list">
                                 {contactColumns.usefulLinks?.map((link: any) => (
                                     <li className="contacts_item" key={link.href}>
-                                        <a href={link.href} className="contacts_link">
+                                        <Link href={link.href} className="contacts_link">
                                             {link.label}
-                                        </a>
+                                        </Link>
                                     </li>
                                 ))}
                             </ul>

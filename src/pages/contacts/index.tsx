@@ -19,6 +19,7 @@ const Contacts: React.FC = () => {
     const router = useRouter();
     const locale = (router.locale || router.defaultLocale || "cz").split("-")[0] === "en" ? "en" : "cz";
     const defaultLocale = router.defaultLocale || "cz";
+
     const metaTitle = locale === "en" ? "Contacts — RM Software" : "Kontakty — RM Software";
     const metaDescription =
         locale === "en"
@@ -37,6 +38,7 @@ const Contacts: React.FC = () => {
             title: "Head office",
             company: "RM Software s.r.o.",
             address: [],
+            
             
             phone: "+420 256 256 393",
             email: "info@rm-software.cz",
