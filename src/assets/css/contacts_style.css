@@ -30,7 +30,7 @@
 
 }
 .top_section_header_text {
-    font-family: 'Inter';
+    font-family: 'Outfit';
     font-size: 14px;
     font-weight: bold;
     color: #FFFFFF;
@@ -61,14 +61,14 @@
     width: 100%;
 }
 .contacts_section2_title {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 45px;
     font-weight: 600;
     color: #21212A;
     margin-bottom: 24px;
 }
 .contacts_section2_description {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 17px;
     font-weight: 500;
     color: #21212ACC;
@@ -98,13 +98,13 @@
     gap: 16px;
 }
 .contacts_phone2_content_title {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 25px;
     font-weight: 600;
     color: #21212A;
 }
 .contacts_phone2_content_description {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 14px;
     font-weight: 400;
     color: #21212A80;
@@ -139,7 +139,7 @@
     width: 100%;
 }
 .contacts_column_title {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 13px;
     font-weight: bold;
     color: #FFFFFF66;
@@ -152,7 +152,7 @@
 
 }
 .contacts_column_title2 {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 13px;
     font-weight: bold;
     color: #FFFFFF66;
@@ -173,7 +173,7 @@
     display: flex;
     text-decoration: none;
     cursor: pointer;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 14px;
     font-weight: 400;
     color: #FFFFFF;
@@ -185,7 +185,7 @@
 }
 
 .contacts_phone {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 23px;
     font-weight: 400;
     color: #FFFFFF;
@@ -195,7 +195,7 @@
     display: flex;
 }
 .contacts_hours {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 14px;
     font-weight: 400;
     color: #FFFFFF66;
@@ -211,7 +211,7 @@
     text-decoration: none;
     cursor: pointer;
     outline: none;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 14px;
     font-weight: 400;
     color: #FFFFFF;
@@ -354,7 +354,7 @@
 }
 
 .contacts_office_title {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 18px;
     font-weight: 500;
     color: #21212A;
@@ -377,7 +377,7 @@
 }
 
 .contacts_office_company {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-weight: bold;
     font-size: 14px;
     color: #000000;
@@ -385,14 +385,14 @@
 }
 
 .contacts_office_info {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-weight: 400;
     font-size: 14px;
     color: #21212A;
     margin-bottom: 5px;
 }
 .contacts_office_phone  {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-weight: 400;
     font-size: 15px;
     color: #21212A;
@@ -404,7 +404,7 @@
     cursor: pointer;
 }
 .contacts_office_email  {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-weight: 400;
     font-size: 14px;
     color: #21212ACC;
@@ -419,7 +419,7 @@
     padding-bottom: 3px;
 }
 .contacts_office_id {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-weight: 400;
     font-size: 15px;
     color: #21212A;

@@ -42,7 +42,7 @@
 
 }
 .top_section_header_text {
-    font-family: 'Inter';
+    font-family: 'Outfit';
     font-size: 14px;
     font-weight: bold;
     color: #FFFFFF;
@@ -118,7 +118,7 @@
 }
 
 .top_content_image_text_title {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 44px;
     line-height: 72px;
     font-weight: 700;
@@ -129,7 +129,7 @@
 }
 
 .top_content_image_text_subtitle {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 18px;
     font-weight: 400;
     color: #FFFFFF;
@@ -178,7 +178,7 @@
     width: 100%;
 }
 .contacts_column_title {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 13px;
     font-weight: bold;
     color: #FFFFFF66;
@@ -191,7 +191,7 @@
 
 }
 .contacts_column_title2 {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 13px;
     font-weight: bold;
     color: #FFFFFF66;
@@ -212,7 +212,7 @@
     display: flex;
     text-decoration: none;
     cursor: pointer;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 14px;
     font-weight: 400;
     color: #FFFFFF;
@@ -224,7 +224,7 @@
 }
 
 .contacts_phone {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 23px;
     font-weight: 400;
     color: #FFFFFF;
@@ -234,7 +234,7 @@
     display: flex;
 }
 .contacts_hours {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 14px;
     font-weight: 400;
     color: #FFFFFF66;
@@ -250,7 +250,7 @@
     text-decoration: none;
     cursor: pointer;
     outline: none;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 14px;
     font-weight: 400;
     color: #FFFFFF;
@@ -399,7 +399,7 @@
   
   .hero-right p {
     color: rgba(33, 33, 42, 1);
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-weight: 500;
     font-size: 17px;
     line-height: 28px;
@@ -437,7 +437,7 @@
 
 .hero_left_wrapper h1 {
     color: rgba(255, 255, 255, 1);
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 44px;
     font-weight: 600;
     line-height: 72px;
@@ -474,7 +474,7 @@
 }
 
 .products2_wrapper_title {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 25px;
     font-weight: 600;
     color: rgba(33, 33, 42, 1);
@@ -518,7 +518,7 @@
 }
 .products2_wrapper_item_title {
     color: #6124E1;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 13px;
     font-weight: bold;
     margin-bottom: 11px;
@@ -526,7 +526,7 @@
 }
 .products2_wrapper_item_description {
     color: #21212A;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 25px;
     font-weight: 600;
     line-height: 33px;
@@ -541,7 +541,7 @@
     height: 50px;
     background: #6124E1;
     width: 100%;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 15px;
     font-weight: 400;
     color: #FFFFFF;
@@ -752,7 +752,7 @@
 }
 
 .product_single_title {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 44px;
     font-weight: 700;
     color: #21212A;
@@ -761,7 +761,7 @@
 }
 
 .product_single_subtitle {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 18px;
     font-weight: 400;
     color: #6124E1;
@@ -774,7 +774,7 @@
 
 .product_single_description_title,
 .product_single_features_title {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 25px;
     font-weight: 600;
     color: #21212A;
@@ -782,7 +782,7 @@
 }
 
 .product_single_description p {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 16px;
     font-weight: 400;
     color: #21212A;
@@ -799,7 +799,7 @@
 }
 
 .product_single_features_item {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 16px;
     font-weight: 400;
     color: #21212A;
@@ -830,7 +830,7 @@
     height: 50px;
     background: #6124E1;
     width: 100%;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 15px;
     font-weight: 400;
     color: #FFFFFF;
@@ -848,7 +848,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 14px;
     font-weight: 400;
     color: #21212A;

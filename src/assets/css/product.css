@@ -30,7 +30,7 @@
 
 }
 .top_section_header_text {
-    font-family: 'Inter';
+    font-family: 'Outfit';
     font-size: 14px;
     font-weight: bold;
     color: #FFFFFF;
@@ -62,7 +62,7 @@
 .product_single_title {
     color: rgba(255, 255, 255, 1);
     margin-bottom: 22px;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-weight: 600;
     font-size: 45px;
     max-width: 668px;
@@ -73,7 +73,7 @@
 }
 
 .product_single_description_text {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-weight: 500;
     font-size: 17px;
     color: rgba(255, 255, 255, 1);;
@@ -132,7 +132,7 @@
     object-fit: cover;
 }
 .advantages_section_title {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 18px;
     font-weight: 600;
     color: rgba(33, 37, 41, 1);
@@ -141,7 +141,7 @@
     line-height: 30px;
 }
 .advantages_section_text {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 14px;
     font-weight: 400;
     color: rgba(33, 33, 42, 0.8);
@@ -185,7 +185,7 @@
 
 
 .about_seezus_section_title {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 36px;
     font-weight: 600;
     color: rgba(33, 33, 42, 1);
@@ -193,7 +193,7 @@
 
 }
 .about_seezus_section_text {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 17px;
     font-weight: 500;
     color: rgba(33, 33, 42, 1);
@@ -216,7 +216,7 @@
     width: 100%;
 }
 .how_it_works_section_title {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 25px;
     font-weight: 600;
     color: rgba(33, 33, 42, 1);
@@ -242,7 +242,7 @@
     border-top: 2px solid rgba(33, 33, 42, 0.2);
 }
 .how_it_works_section_item_title {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 18px;
     font-weight: 600;
     color: rgba(33, 33, 42, 1);
@@ -250,7 +250,7 @@
     margin-top: 8px;
 }
 .how_it_works_section_item_description {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 14px;
     font-weight: 400;
     color: rgba(33, 33, 42, 0.8);
@@ -298,7 +298,7 @@
     gap: 0 3px;
 }
 .solution_section_item_content2_item_title {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 14px;
     font-weight: 400;
     color: rgba(255, 255, 255, 1);
@@ -310,7 +310,7 @@
 
 
 .product_single_features_title {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 35px;
     font-weight: 600;
     color: rgba(255, 255, 255, 1);
@@ -320,7 +320,7 @@
     width: 100%; */
 }
 .solution_section_item_description {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 14px;
     font-weight: 400;
     color: rgba(255, 255, 255, 1);
@@ -354,7 +354,7 @@
     margin-bottom: 30px;
 }
 .what_makes_smart_section_title {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 25px;
     font-weight: 600;
     color: rgba(33, 33, 42, 1);
@@ -365,7 +365,7 @@
     list-style-position: inside;
 }
 .what_makes_smart_section_list_item_text {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 14px;
     font-weight: 400;
     color: rgba(33, 33, 42, 1);
@@ -442,7 +442,7 @@
     width: 100%;
 }
 .contacts_column_title {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 13px;
     font-weight: bold;
     color: #FFFFFF66;
@@ -455,7 +455,7 @@
 
 }
 .contacts_column_title2 {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 13px;
     font-weight: bold;
     color: #FFFFFF66;
@@ -476,7 +476,7 @@
     display: flex;
     text-decoration: none;
     cursor: pointer;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 14px;
     font-weight: 400;
     color: #FFFFFF;
@@ -488,7 +488,7 @@
 }
 
 .contacts_phone {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 23px;
     font-weight: 400;
     color: #FFFFFF;
@@ -498,7 +498,7 @@
     display: flex;
 }
 .contacts_hours {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 14px;
     font-weight: 400;
     color: #FFFFFF66;
@@ -514,7 +514,7 @@
     text-decoration: none;
     cursor: pointer;
     outline: none;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 14px;
     font-weight: 400;
     color: #FFFFFF;
@@ -661,7 +661,7 @@
 }
 
 .contacts_office_title {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 18px;
     font-weight: 500;
     color: #21212A;
@@ -684,7 +684,7 @@
 }
 
 .contacts_office_company {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-weight: bold;
     font-size: 14px;
     color: #000000;
@@ -692,14 +692,14 @@
 }
 
 .contacts_office_info {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-weight: 400;
     font-size: 14px;
     color: #21212A;
     margin-bottom: 5px;
 }
 .contacts_office_phone  {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-weight: 400;
     font-size: 15px;
     color: #21212A;
@@ -711,7 +711,7 @@
     cursor: pointer;
 }
 .contacts_office_email  {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-weight: 400;
     font-size: 14px;
     color: #21212ACC;
@@ -726,7 +726,7 @@
     padding-bottom: 3px;
 }
 .contacts_office_id {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-weight: 400;
     font-size: 15px;
     color: #21212A;

@@ -41,7 +41,7 @@
 
 }
 .top_section_header_text {
-    font-family: 'Inter';
+    font-family: 'Outfit';
     font-size: 14px;
     font-weight: bold;
     color: #FFFFFF;
@@ -97,7 +97,7 @@
 }
 
 .top_content_image_text_title2 {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 44px;
     line-height: 72px;  
     font-weight: 600;
@@ -109,7 +109,7 @@
 }
 
 .top_content_image_text_subtitle2 {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 17px;
     font-weight: 500;
     color: #FFFFFF;
@@ -142,7 +142,7 @@
     border: none;
     outline: none;
     cursor: pointer;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 14px;
     font-weight: 400;
     background-color: #6124E1;
@@ -204,7 +204,7 @@
     width: 100%;
 }
 .services_section2_stat_title {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 18px;
     font-weight: 600;
     color: #21212A;
@@ -212,7 +212,7 @@
     text-align: center;
 }
 .services_section2_stat_description {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 13px;
     font-weight: 400;
     color: #21212A80;
@@ -226,7 +226,7 @@
     margin: 0 auto;
     gap: 20px;
     color: #21212ACC;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 14px;
     font-weight: 400;
     text-decoration: none;
@@ -242,7 +242,7 @@
     justify-content: center;
     gap: 10px;
     color: #21212ACC;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 14px;
     font-weight: 400;
     border-bottom: 1px solid #2CCF8D4D;
@@ -268,7 +268,7 @@
 .products_section_title 
 {
     text-align: center;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 41px;
     font-weight: 600;
     color: #FFFFFF;
@@ -295,7 +295,7 @@
     gap: 17px;
 }
 .products_section_stat_value {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 41px;
     font-weight: 600;
     color: #FFFFFF;
@@ -303,13 +303,13 @@
 }
 
 .products_section_stat_label {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 13px;
     font-weight: bold;
     color: #FFFFFF;
 }
 .products_section_stat_description {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 14.5px;
     font-weight: 400;
     color: #FFFFFF;
@@ -367,14 +367,14 @@
    width: 100%;
 }
 .services_section3_stat_title {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 29px;
     font-weight: 600;
     color: #21212A;
     margin-bottom: 24px;
 }
 .services_section3_stat_description {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 17px;
     font-weight: 500;
     color: #21212A;
@@ -391,7 +391,7 @@
     justify-content: center;
     gap: 16px;
     color: #21212ACC;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 15px;
     font-weight: 400;
     text-decoration: none;
@@ -424,7 +424,7 @@
     width: 100%;
 }
 .contacts_column_title {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 13px;
     font-weight: bold;
     color: #FFFFFF66;
@@ -437,7 +437,7 @@
 
 }
 .contacts_column_title2 {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 13px;
     font-weight: bold;
     color: #FFFFFF66;
@@ -458,7 +458,7 @@
     display: flex;
     text-decoration: none;
     cursor: pointer;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 14px;
     font-weight: 400;
     color: #FFFFFF;
@@ -470,7 +470,7 @@
 }
 
 .contacts_phone {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 23px;
     font-weight: 400;
     color: #FFFFFF;
@@ -480,7 +480,7 @@
     display: flex;
 }
 .contacts_hours {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 14px;
     font-weight: 400;
     color: #FFFFFF66;
@@ -496,7 +496,7 @@
     text-decoration: none;
     cursor: pointer;
     outline: none;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 14px;
     font-weight: 400;
     color: #FFFFFF;

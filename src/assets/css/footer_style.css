@@ -34,7 +34,7 @@
 }
 
 .footer_content_text {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 14px;
     font-weight: 400;
     color: #6124E1;
@@ -49,7 +49,7 @@
     display: flex;
     cursor: pointer;
     outline: none;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 14px;
     font-weight: 400;
     color: #21212ACC;

@@ -42,7 +42,7 @@
 
 }
 .top_section_header_text {
-    font-family: 'Inter';
+    font-family: 'Outfit';
     font-size: 14px;
     font-weight: bold;
     color: #FFFFFF;
@@ -118,7 +118,7 @@
 }
 
 .top_content_image_text_title {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 44px;
     line-height: 72px;
     font-weight: 700;
@@ -129,7 +129,7 @@
 }
 
 .top_content_image_text_subtitle {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 18px;
     font-weight: 400;
     color: #FFFFFF;
@@ -166,7 +166,7 @@
 }
 
 .about_section_title {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 28px;
     font-weight: 600;
     color: #6124E1;
@@ -175,7 +175,7 @@
 }
 
 .about_section_description {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 15px;
     font-weight: 400;
     color: #212529;
@@ -202,7 +202,7 @@
 .products_section_title 
 {
     text-align: center;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 41px;
     font-weight: 600;
     color: #FFFFFF;
@@ -229,7 +229,7 @@
     gap: 17px;
 }
 .products_section_stat_value {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 41px;
     font-weight: 600;
     color: #FFFFFF;
@@ -237,13 +237,13 @@
 }
 
 .products_section_stat_label {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 13px;
     font-weight: bold;
     color: #FFFFFF;
 }
 .products_section_stat_description {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 14.5px;
     font-weight: 400;
     color: #FFFFFF;
@@ -266,14 +266,14 @@
 }
 
 .about_section2_title {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-weight: 600;
     font-size: 35px;
     color: #6124E1;
     margin-bottom: 14px;
 }
 .about_section2_title2 {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-weight: 500;
     font-size: 18px;
     color: #212529;
@@ -281,7 +281,7 @@
 }
 
 .about_section2_description {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 14px;
     font-weight: 400;
     color: #212529;
@@ -356,7 +356,7 @@
     top: 100px;
 }
 .services_section_stat_title {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 25px;
     font-weight: 600;
     color: #21212A;
@@ -365,7 +365,7 @@
 }
 
 .services_section_stat_description {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 14px;
     font-weight: 400;
     color: #21212A;
@@ -397,7 +397,7 @@
     width: 100%;
 }
 .contacts_column_title {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 13px;
     font-weight: bold;
     color: #FFFFFF66;
@@ -410,7 +410,7 @@
 
 }
 .contacts_column_title2 {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 13px;
     font-weight: bold;
     color: #FFFFFF66;
@@ -431,7 +431,7 @@
     display: flex;
     text-decoration: none;
     cursor: pointer;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 14px;
     font-weight: 400;
     color: #FFFFFF;
@@ -443,7 +443,7 @@
 }
 
 .contacts_phone {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 23px;
     font-weight: 400;
     color: #FFFFFF;
@@ -453,7 +453,7 @@
     display: flex;
 }
 .contacts_hours {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 14px;
     font-weight: 400;
     color: #FFFFFF66;
@@ -469,7 +469,7 @@
     text-decoration: none;
     cursor: pointer;
     outline: none;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 14px;
     font-weight: 400;
     color: #FFFFFF;
@@ -723,7 +723,7 @@
 
  @media (max-width: 430px) {
     .top_content_image_text_title {
-        font-family: 'Inter', sans-serif;
+        font-family: 'Outfit', sans-serif;
         font-size: 40px!important;
         line-height: 56px!important;
     }
@@ -744,7 +744,7 @@
 
  @media (max-width: 350px) {
     .top_content_image_text_title {
-        font-family: 'Inter', sans-serif;
+        font-family: 'Outfit', sans-serif;
         font-size: 37px!important;
         line-height: 46px!important;
     }
